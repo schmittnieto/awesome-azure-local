@@ -1,6 +1,6 @@
 # Awesome Azure Local
 
-A curated list of links and resources for **Azure Local** and its related technologies. This repository centralizes knowledge for professionals building or operating hybrid cloud and edge solutions.
+A curated list of links and resources for **Azure Local** and its related technologies. Inspired by [Awesome Azure Architecture](https://aka.ms/AwesomeAzureArchitecture), which follows a similar model for Azure architecture links, this repository centralizes knowledge for professionals building or operating hybrid cloud and edge solutions.
 
 ---
 
@@ -17,12 +17,17 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [HPE](#hpe)  
   - [Lenovo](#lenovo)  
   - [DataON](#dataon)
+- [Third Party](#third-party)  
+  - [Backup Management](#backup-management)  
+    - [Veeam](#veeam)  
+    - [Commvault](#commvault)  
+  - [AVD Management](#avd-management)  
+    - [Nerdio](#nerdio)  
+    - [Hydra by Login VSI](#hydra-by-login-vsi)
 - [Community](#community)  
   - [Blog](#blog)  
   - [Chats](#chats)  
   - [Events](#events)
-
----
 
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
@@ -132,6 +137,50 @@ Resources from key original equipment manufacturers with dedicated Azure Local c
   Set of reference guides that compare Azure Local solutions and services.  
 - [DataON - SBE Page](https://dataon.io/apply-updates-to-your-azure-stack-hci-cluster-with-the-solution-builder-extension-sbe/)  
   Page for managing firmware and driver updates on DataON hardware.  
+
+---
+
+## Third Party  
+
+Independent vendors offering backup or AVD management solutions for Azure Local environments.
+
+### Backup Management  
+
+Software commonly used to perform backups of Azure Local infrastructure.
+
+#### Veeam
+
+- [Veeam – Veeam Support for Azure Stack HCI](https://www.veeam.com/kb4047)  
+  Documentation covering backup, restore, and replication of virtual machines on the initial Azure Stack HCI by Veeam Backup & Replication.  
+- [Veeam – VBR step by step configure Azure Stack HCI OS – Azure Local Backup](https://community.veeam.com/blogs-and-podcasts-57/guide-vbr-step-by-step-configure-azure-stack-hci-os-azure-local-backup-10827)  
+  Community article offering a deeper technical implementation of Veeam Backup for Azure Local.  
+
+#### Commvault
+
+- [Commvault – Azure Local Configuration and Documentation](https://documentation.commvault.com/11.42/essential/azure_local.html)  
+  Guide to install and configure Commvault for protecting workloads on Azure Local.  
+- [Commvault – Blueprint for Azure Local (PDF)](https://www.commvault.com/download-pdf/536787)  
+  Document explaining core concepts and Commvault capabilities for backing up Azure Local infrastructure.  
+
+### AVD Management  
+
+Software used to manage Azure Virtual Desktop infrastructure on Azure Local.
+
+#### Nerdio
+
+- [Nerdio – Azure Local Landing Page](https://getnerdio.com/azure-local/)  
+  Objective overview of Azure Local, covering architecture, edge scenarios, security, connectivity, and pricing.  
+- [Nerdio – Integrate AVD resources provisioned to Azure Local with Nerdio Manager](https://nmehelp.getnerdio.com/hc/en-us/articles/34054417281165-How-can-I-integrate-AVD-resources-provisioned-to-Azure-Local-Stack-HCI-with-Nerdio-Manager)  
+  Guide to integrate existing AVD infrastructure on Azure Local into Nerdio Manager for simpler management.  
+- [Nerdio – AVD for Azure Local and Nerdio Manager](https://nmehelp.getnerdio.com/hc/en-us/articles/25499377328909-AVD-for-Azure-Local-and-Nerdio-Manager)  
+  How to configure Nerdio to manage tasks on Azure Local, including golden images and host pool configuration.  
+
+#### Hydra by Login VSI
+
+- [Hydra – Landing Page](https://euc.loginvsi.com/hydra-by-login-vsi)  
+  Hydra product overview from Login VSI.  
+- [Hydra – Imaging, Rollout and Manage Azure Virtual Desktop on Azure Local](https://blog.itprocloud.de/AVD-Hydra-For-Azure-Stack-HCI-Deplyoment-Management/)  
+  Article by Marcel Meurer on configuring Hydra for Azure Local.  
 
 ---
 
