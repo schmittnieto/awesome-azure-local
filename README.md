@@ -1,3 +1,4 @@
+![Awesome Azure Local](/img/awesome_azure_local.png)
 # Awesome Azure Local
 
 A curated list of links and resources for **Azure Local** and its related technologies. Inspired by [Awesome Azure Architecture](https://aka.ms/AwesomeAzureArchitecture), which follows a similar model for Azure architecture links, this repository centralizes knowledge for professionals building or operating hybrid cloud and edge solutions.
