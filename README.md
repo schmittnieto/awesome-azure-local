@@ -12,7 +12,11 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [AKS](#aks)  
   - [Backup and Disaster Recovery](#backup-and-disaster-recovery)  
   - [GitHub Repositories](#github-repositories)
-- [OEMs](#oems)
+- [OEMs](#oems)  
+  - [Dell](#dell)  
+  - [HPE](#hpe)  
+  - [Lenovo](#lenovo)  
+  - [DataON](#dataon)
 - [Community](#community)  
   - [Blog](#blog)  
   - [Chats](#chats)  
@@ -80,9 +84,54 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 ---
 
-## OEMs
+## OEMs  
+Resources from key original equipment manufacturers with dedicated Azure Local content.
 
-- *Placeholder for OEMs links*  
+### Dell
+
+- [Dell - Azure Local Landing Page](https://www.dell.com/en-us/shop/ax-system-for-azure-local/sf/ax-system-for-azure-local)  
+  Dell landing page for Azure Local.  
+- [Dell - Deployment Guides for Azure Local](https://infohub.delltechnologies.com/de-de/t/guides-azure-stack-hci-os-24h2-or-ws-2025-and-later/)  
+  Technical guides for Dell AX System for Azure Local or Dell AX System for Windows Server with operating system version 24H2 or Windows Server 2025 and later.  
+- [Dell - Azure Local Hands on Labs (GitHub)](https://github.com/DellGEOS/AzureLocalHOLs)  
+  Detailed guides on building a lab for Azure Local, tips, and deep dives.  
+- [Dell - Dell Technologies Solutions for Microsoft Azure - Azure Local](https://dell.github.io/azurestack-docs/docs/hci/)  
+  Website backed by the Dell GitHub repository that lists supported versions and architectural guidance for Azure Local.  
+- [Dell - Azure Local InfoHub](https://infohub.delltechnologies.com/t/microsoft-hci-solutions-from-dell-technologies-1/)  
+  Main page that aggregates the Dell Azure Local resources mentioned above.  
+- [Dell - SBE Page](https://www.dell.com/support/kbdoc/en-us/000224407/dell-for-microsoft-azure-stack-hci-ax-hardware-updates-release-notes)  
+  Page for managing firmware and driver updates on Dell hardware.  
+
+### HPE
+
+- [HPE - Azure Local Landing Page](https://www.hpe.com/us/en/alliance/microsoft/azurelocal.html)  
+  HPE landing page for Azure Local.  
+- [HPE - ProLiant for Azure Local Integrated Systems User Guide](https://support.hpe.com/hpesc/public/docDisplay?docId=sd00006156en_us&docLocale=en_US)  
+  Management guide for HPE ProLiant for Azure Local, aimed at administrators who install, manage, and troubleshoot servers.  
+- [HPE - Solutions for Azure Local - Deployment Guide](https://www.hpe.com/psnow/doc/a50008245enw)  
+  Technical white paper with solution guidelines and example configurations for Azure Local HCI on HPE ProLiant, Alletra, and Edgeline servers.  
+- [HPE - SBE Page](https://myenterpriselicense.hpe.com/cwp-ui/product-details/SBE_UPDATES/-/sw_free)  
+  Page for managing firmware and driver updates on HPE hardware.  
+
+### Lenovo
+
+- [Lenovo - Azure Local Landing Page](https://www.lenovo.com/us/en/resources/streams/microsoft-azure-stack-hci)  
+  Lenovo landing page for Azure Local.  
+- [Lenovo - ThinkAgile MX Series for Microsoft Azure Local](https://lenovopress.lenovo.com/servers/thinkagile/mx-series)  
+  Installation and deployment guides for Azure Local and related services on Lenovo hardware.  
+- [Lenovo - SBE Page](https://pubs.lenovo.com/thinkagile-mx/de/mx_sbe)  
+  Page for managing firmware and driver updates on Lenovo hardware.  
+
+### DataON
+
+- [DataON - Azure Local Landing Page](https://www.dataonstorage.com/azurestackhci/)  
+  DataON landing page for Azure Local.  
+- [DataON - Azure Local Knowledge Base](https://dataon.io/knowledge-base-categories/azure-stack-hci/)  
+  Extensive knowledge base with articles covering many Azure Local services and components.  
+- [DataON - Azure Local Quick Reference Guide](https://dataon.io/dataon-quick-reference-guides/)  
+  Set of reference guides that compare Azure Local solutions and services.  
+- [DataON - SBE Page](https://dataon.io/apply-updates-to-your-azure-stack-hci-cluster-with-the-solution-builder-extension-sbe/)  
+  Page for managing firmware and driver updates on DataON hardware.  
 
 ---
 
@@ -98,7 +147,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 ### Events
 
-- [Microsoft Ignite – Azure Hybrid Sessions](https://ignite.microsoft.com/en-US/home)  
+- [Microsoft Ignite - Azure Hybrid Sessions](https://ignite.microsoft.com/en-US/home)  
 - *Placeholder for past or upcoming community event*  
 
 ---
