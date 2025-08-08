@@ -26,6 +26,7 @@ A curated list of links and resources for **Azure Local** and its related techno
     - [Hydra by Login VSI](#hydra-by-login-vsi)
 - [Community](#community)  
   - [Blog](#blog)  
+  - [LinkedIn](#linkedin)  
   - [Chats](#chats)  
   - [Events](#events)
 
@@ -150,16 +151,16 @@ Software commonly used to perform backups of Azure Local infrastructure.
 
 #### Veeam
 
-- [Veeam – Veeam Support for Azure Stack HCI](https://www.veeam.com/kb4047)  
+- [Veeam - Veeam Support for Azure Stack HCI](https://www.veeam.com/kb4047)  
   Documentation covering backup, restore, and replication of virtual machines on the initial Azure Stack HCI by Veeam Backup & Replication.  
-- [Veeam – VBR step by step configure Azure Stack HCI OS – Azure Local Backup](https://community.veeam.com/blogs-and-podcasts-57/guide-vbr-step-by-step-configure-azure-stack-hci-os-azure-local-backup-10827)  
+- [Veeam - VBR step by step configure Azure Stack HCI OS - Azure Local Backup](https://community.veeam.com/blogs-and-podcasts-57/guide-vbr-step-by-step-configure-azure-stack-hci-os-azure-local-backup-10827)  
   Community article offering a deeper technical implementation of Veeam Backup for Azure Local.  
 
 #### Commvault
 
-- [Commvault – Azure Local Configuration and Documentation](https://documentation.commvault.com/11.42/essential/azure_local.html)  
+- [Commvault - Azure Local Configuration and Documentation](https://documentation.commvault.com/11.42/essential/azure_local.html)  
   Guide to install and configure Commvault for protecting workloads on Azure Local.  
-- [Commvault – Blueprint for Azure Local (PDF)](https://www.commvault.com/download-pdf/536787)  
+- [Commvault - Blueprint for Azure Local (PDF)](https://www.commvault.com/download-pdf/536787)  
   Document explaining core concepts and Commvault capabilities for backing up Azure Local infrastructure.  
 
 ### AVD Management  
@@ -168,29 +169,68 @@ Software used to manage Azure Virtual Desktop infrastructure on Azure Local.
 
 #### Nerdio
 
-- [Nerdio – Azure Local Landing Page](https://getnerdio.com/azure-local/)  
+- [Nerdio - Azure Local Landing Page](https://getnerdio.com/azure-local/)  
   Objective overview of Azure Local, covering architecture, edge scenarios, security, connectivity, and pricing.  
-- [Nerdio – Integrate AVD resources provisioned to Azure Local with Nerdio Manager](https://nmehelp.getnerdio.com/hc/en-us/articles/34054417281165-How-can-I-integrate-AVD-resources-provisioned-to-Azure-Local-Stack-HCI-with-Nerdio-Manager)  
+- [Nerdio - Integrate AVD resources provisioned to Azure Local with Nerdio Manager](https://nmehelp.getnerdio.com/hc/en-us/articles/34054417281165-How-can-I-integrate-AVD-resources-provisioned-to-Azure-Local-Stack-HCI-with-Nerdio-Manager)  
   Guide to integrate existing AVD infrastructure on Azure Local into Nerdio Manager for simpler management.  
-- [Nerdio – AVD for Azure Local and Nerdio Manager](https://nmehelp.getnerdio.com/hc/en-us/articles/25499377328909-AVD-for-Azure-Local-and-Nerdio-Manager)  
+- [Nerdio - AVD for Azure Local and Nerdio Manager](https://nmehelp.getnerdio.com/hc/en-us/articles/25499377328909-AVD-for-Azure-Local-and-Nerdio-Manager)  
   How to configure Nerdio to manage tasks on Azure Local, including golden images and host pool configuration.  
 
 #### Hydra by Login VSI
 
-- [Hydra – Landing Page](https://euc.loginvsi.com/hydra-by-login-vsi)  
+- [Hydra - Landing Page](https://euc.loginvsi.com/hydra-by-login-vsi)  
   Hydra product overview from Login VSI.  
-- [Hydra – Imaging, Rollout and Manage Azure Virtual Desktop on Azure Local](https://blog.itprocloud.de/AVD-Hydra-For-Azure-Stack-HCI-Deplyoment-Management/)  
+- [Hydra - Imaging, Rollout and Manage Azure Virtual Desktop on Azure Local](https://blog.itprocloud.de/AVD-Hydra-For-Azure-Stack-HCI-Deplyoment-Management/)  
   Article by Marcel Meurer on configuring Hydra for Azure Local.  
 
 ---
 
-## Community
+## Community  
 
-### Blog
+Resources that do not come from Microsoft, OEMs, or the vendors listed in the Third Party section.
 
-- *Placeholder for community blog link 1*  
+### Blog  
 
-### Chats
+*To avoid an excessive list, only entire blogs are referenced, not individual posts.*
+
+- [schmitt-nieto.com](https://schmitt-nieto.com/tags/#azure-local)  
+  Yes, naming my own blog first is bad form, but here I share hands-on content about Azure Local implementation and management.  
+- [blog.graa.dev](https://blog.graa.dev/tags/azure-local/)  
+  Blog by MVP Erik Grina Raassum focused on Azure Local and PowerShell implementations.  
+- [jtpedersen.com](https://jtpedersen.com/)  
+  Blog by MVP Jan-Tore Pedersen covering Azure Local troubleshooting and insights.  
+- [azurelab.blog](https://www.azurelab.blog/)  
+  Italian-language blog by Luigi Pandolfino (MVP) and others about Azure Local and related topics.  
+- [chkja.dk](https://www.chkja.dk/)  
+  Blog by Christoffer Klarskov Jakobsen featuring Azure Local implementations.  
+- [thisismydemo.cloud](https://thisismydemo.cloud/tags/azure-local/)  
+  Blog by MVP Kristopher Turner on Azure Local and infrastructure solutions.  
+- [francescomolfese.it](https://francescomolfese.it/en/)  
+  Blog by MVP Francesco Molfese focused on Azure Local and IaC.  
+- [auxiliumtechtalk.com](https://www.auxiliumtechtalk.com/home/categories/azure-local)  
+  Blog by Alyn Peden discussing real-world Azure Local scenarios.  
+- [jakewalsh.co.uk](https://jakewalsh.co.uk/tag/azure-local/)  
+  Blog by MVP Jake Walsh on Azure Local implementations.  
+- [silviodibenedetto.com](https://www.silviodibenedetto.com/)  
+  Blog by MVP Silvio Di Benedetto on Azure Local and related topics.  
+- [hciharrison.com](https://www.hciharrison.com/)  
+  Blog by MVP Lee Harrison covering all things Azure Local.  
+- [kennylowe.org](https://kennylowe.org/)  
+  Blog by MVP Kenny Lowe on Azure Local and infrastructure.  
+- [erniecosta.com](https://www.erniecosta.com/blog/)  
+  Blog by MVP Ernie Costa focusing on Azure Local, Storage Spaces Direct and services.  
+
+### LinkedIn  
+
+Most day-to-day news on Azure Local arrives first on LinkedIn. Here are two profiles worth following.
+
+- [Darryl van der Peijl](https://www.linkedin.com/in/darrylvanderpeijl/)  
+  One of the most active MVPs posting news and technical content. He also runs the [Azure Local Insider](https://www.linkedin.com/newsletters/7094952705042841602/) newsletter, which I recommend.  
+- [Dino Bordonaro](https://www.linkedin.com/in/dinobordonaro/)  
+  The MVP who brought me into this space. Practical content, including the article *[Why Expensive Azure Local Hardware Becomes Datacenter Decoration (7 Mistakes That Turn Investment Into Inventory)](https://www.linkedin.com/pulse/why-expensive-azure-local-hardware-becomes-datacenter-dino-bordonaro-mw0ie/)*.  
+
+
+### Chats & Channels 
 
 - *Placeholder for chat or forum link*  
 
