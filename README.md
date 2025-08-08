@@ -27,7 +27,8 @@ A curated list of links and resources for **Azure Local** and its related techno
 - [Community](#community)  
   - [Blog](#blog)  
   - [LinkedIn](#linkedin)  
-  - [Chats](#chats)  
+  - [YouTube](#youtube)  
+  - [Chats & Channels](#chats--channels)  
   - [Events](#events)
 
 ## Official  
@@ -218,7 +219,9 @@ Resources that do not come from Microsoft, OEMs, or the vendors listed in the Th
 - [kennylowe.org](https://kennylowe.org/)  
   Blog by MVP Kenny Lowe on Azure Local and infrastructure.  
 - [erniecosta.com](https://www.erniecosta.com/blog/)  
-  Blog by MVP Ernie Costa focusing on Azure Local, Storage Spaces Direct and services.  
+  Blog by MVP Ernie Costa focusing on Azure Local, Storage Spaces Direct and services. 
+- [thomasmaurer.ch](https://www.thomasmaurer.ch/)  
+  Blog by former Microsoft employee Thomas Maurer (Principal Program Manager & Chief Evangelist for Azure Hybrid) covering a wide range of Azure services, including Azure Local.  
 
 ### LinkedIn  
 
@@ -228,16 +231,34 @@ Most day-to-day news on Azure Local arrives first on LinkedIn. Here are two prof
   One of the most active MVPs posting news and technical content. He also runs the [Azure Local Insider](https://www.linkedin.com/newsletters/7094952705042841602/) newsletter, which I recommend.  
 - [Dino Bordonaro](https://www.linkedin.com/in/dinobordonaro/)  
   The MVP who brought me into this space. Practical content, including the article *[Why Expensive Azure Local Hardware Becomes Datacenter Decoration (7 Mistakes That Turn Investment Into Inventory)](https://www.linkedin.com/pulse/why-expensive-azure-local-hardware-becomes-datacenter-dino-bordonaro-mw0ie/)*.  
+- [Sven Langenfeld](https://www.linkedin.com/in/svenlangenfeld/)  
+  Former Microsoft Senior Azure Local Commercial Sales Specialist (DACH) who leads a large Azure Local community across technical and business topics. Founder of the LinkedIn group [Azure Local Tech Talk](https://www.linkedin.com/groups/12885745/).  
+- [Manfred Helber](https://www.linkedin.com/in/manfredhelber/)  
+  Germany-based MVP active in community events and live streams.  
+- [Karl Wester-Ebbinghaus](https://www.linkedin.com/in/karl-wester-ebbinghaus-a41507153/)  
+  Germany-based MVP who contributes extensively to the Azure Local Tech Talk channel.  
+- [Flo Fox](https://www.linkedin.com/in/florianklaffenbach/)  
+  Former Microsoft Senior Technical Program Manager (Azure Risk) who runs the Hybrid Friends YouTube channel.  
 
+### YouTube  
 
-### Chats & Channels 
+Channels that focus primarily on Azure Local rather than hosting only an occasional video.
 
-- *Placeholder for chat or forum link*  
+- [The Hybrid Friends](https://www.youtube.com/@thehybridfriends)  
+  Practical use cases and deep dives in the Azure Local space.  
+- [Manfred Helber](https://www.youtube.com/@ManfredHelber)  
+  German- and English-language channel by MVP Manfred Helber featuring *Azure Local Show*, a weekly update on Azure Local news.  
+- [Carsten Rachfall](https://www.youtube.com/@CarstenRachfahl)  
+  German-language channel by MVP Carsten Rachfall streaming Azure Local and Azure Virtual Desktop implementations.  
+
+### Chats & Channels
+
+- [Azure Local Slack Channel](https://aka.ms/azurelocal-slack)  
+  Slack channel (the real Community) managed by Darryl van der Peijl that provides community support for all Azure Local questions.  
 
 ### Events
 
-- [Microsoft Ignite - Azure Hybrid Sessions](https://ignite.microsoft.com/en-US/home)  
-- *Placeholder for past or upcoming community event*  
+- [Microsoft Ignite - Azure Hybrid Sessions](https://ignite.microsoft.com/en-US/home)
 
 ---
 
