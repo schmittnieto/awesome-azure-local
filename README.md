@@ -252,7 +252,7 @@ Channels that focus primarily on Azure Local rather than hosting only an occasio
 - [Carsten Rachfall](https://www.youtube.com/@CarstenRachfahl)  
   German-language channel by MVP Carsten Rachfall streaming Azure Local and Azure Virtual Desktop implementations.
 - [I am IT Geek - Shabaz Darr](https://youtube.com/playlist?list=PLJBGLF8tZlXNPqodqi33xXokfBH3gd4yx&si=ZByGRqDkgJlFnyRu)  
-  Practical use cases by MVP Shabaz Darr coveringtopicslike Azure Arc and Hybrid Kubernetes.  
+  Practical use cases by MVP Shabaz Darr covering topics like Azure Arc and Hybrid Kubernetes.  
 
 ### Chats & Channels
 
