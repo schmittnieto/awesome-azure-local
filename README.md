@@ -17,6 +17,7 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [Dell](#dell)  
   - [HPE](#hpe)  
   - [Lenovo](#lenovo)  
+  - [Fujitsu](#fujitsu)  
   - [DataON](#dataon)
 - [Third Party](#third-party)  
   - [Backup Management](#backup-management)  
@@ -139,7 +140,15 @@ Resources from key original equipment manufacturers with dedicated Azure Local c
 - [DataON - Azure Local Quick Reference Guide](https://dataon.io/dataon-quick-reference-guides/)  
   Set of reference guides that compare Azure Local solutions and services.  
 - [DataON - SBE Page](https://dataon.io/apply-updates-to-your-azure-stack-hci-cluster-with-the-solution-builder-extension-sbe/)  
-  Page for managing firmware and driver updates on DataON hardware.  
+  Page for managing firmware and driver updates on DataON Hardware. 
+
+### Fujitsu
+
+- [Fujitsu - Azure Local Landing Page](https://www.fujitsu.com/de/products/computing/integrated-systems/azure-stack-hci.html)  
+  Fujitsu landing page for Azure Local with product information and references.
+- [Fujitsu - Azure Local Infographic](https://docs.ts.fujitsu.com/dl.aspx?id=6c594a34-97fa-46b4-a0e8-1a78887524e9)  
+  Infographic that summarizes the Azure Local solution from Fujitsu.
+
 
 ---
 
