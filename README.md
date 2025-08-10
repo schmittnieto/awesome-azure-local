@@ -54,6 +54,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   Tool that estimates hardware requirements based on selected parameters.  
 - [Azure Hybrid Benefit on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/windows-server/get-started/azure-hybrid-benefit?tabs=azure-local#getting-azure-hybrid-benefit)  
   Link describing the contractual requirements for using Azure Hybrid Benefit with Azure Local. 
+- [Azure Local Solutions Category](https://azurelocalsolutions.azure.microsoft.com/#/Learn)  
+  Overview of Azure Local solution types, outlining the differences between Validated Systems, Integrated Systems, and Premier solution.
 
 ### AVD
 
@@ -148,7 +150,6 @@ Resources from key original equipment manufacturers with dedicated Azure Local c
   Fujitsu landing page for Azure Local with product information and references.
 - [Fujitsu - Azure Local Infographic](https://docs.ts.fujitsu.com/dl.aspx?id=6c594a34-97fa-46b4-a0e8-1a78887524e9)  
   Infographic that summarizes the Azure Local solution from Fujitsu.
-
 
 ---
 
