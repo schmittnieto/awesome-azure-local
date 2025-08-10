@@ -33,6 +33,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [Chats & Channels](#chats--channels)  
   - [Events](#events)
 
+---
+
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
