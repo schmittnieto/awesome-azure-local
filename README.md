@@ -17,8 +17,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [Dell](#dell)  
   - [HPE](#hpe)  
   - [Lenovo](#lenovo)  
-  - [Fujitsu](#fujitsu)  
   - [DataON](#dataon)
+  - [Fujitsu](#fujitsu)  
 - [Third Party](#third-party)  
   - [Backup Management](#backup-management)  
     - [Veeam](#veeam)  
@@ -26,10 +26,13 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [AVD Management](#avd-management)  
     - [Nerdio](#nerdio)  
     - [Hydra by Login VSI](#hydra-by-login-vsi)
+  - [Sizing](#sizing)  
+    - [Acuutech](#acuutech)
 - [Community](#community)  
   - [Blog](#blog)  
   - [LinkedIn](#linkedin)  
   - [YouTube](#youtube)  
+  - [Github Repos & Tools](#github-repos--tools)  
   - [Chats & Channels](#chats--channels)  
   - [Events](#events)
 
@@ -197,6 +200,16 @@ Software used to manage Azure Virtual Desktop infrastructure on Azure Local.
 - [Hydra - Imaging, Rollout and Manage Azure Virtual Desktop on Azure Local](https://blog.itprocloud.de/AVD-Hydra-For-Azure-Stack-HCI-Deplyoment-Management/)  
   Article by Marcel Meurer on configuring Hydra for Azure Local.  
 
+### Sizing
+
+Tools to estimate Azure Local sizing and choose the right hardware.
+
+#### Acuutech
+- [Acuutech - Azure Local Landing Page](https://www.acuutech.com/azurelocal/)  
+  Objective overview of Azure Local, covering architecture, edge scenarios, security, connectivity and pricing.  
+- [Acuutech - Scopesys Azure Local Sizing Tool](https://www.acuutech.com/scopesys/)  
+  Make the design, configuration and ordering of Azure Local or Windows Server solutions easy, by removing the technical complexity associated with scoping Azure Local or Windows Server environments.  
+
 ---
 
 ## Community  
@@ -265,6 +278,15 @@ Channels that focus primarily on Azure Local rather than hosting only an occasio
   German-language channel by MVP Carsten Rachfall streaming Azure Local and Azure Virtual Desktop implementations.
 - [I am IT Geek - Shabaz Darr](https://youtube.com/playlist?list=PLJBGLF8tZlXNPqodqi33xXokfBH3gd4yx&si=ZByGRqDkgJlFnyRu)  
   Practical use cases by MVP Shabaz Darr covering topics like Azure Arc and Hybrid Kubernetes.  
+
+### Github Repos & Tools
+
+- [bfrankMS - AzureLocal_AzStackHCI (GitHub)](https://github.com/bfrankMS/AzureLocal_AzStackHCI)  
+  Azure Local repository with findings on automating installations of HCI, AKS, and AVD.  
+- [S2D Capacity Calculator (Tool)](https://s2d-calculator.com/)  
+  Use this Storage Spaces Direct Calculator to estimate storage capacity, resiliency, and hardware requirements for your Storage Spaces Direct (S2D) deployment.  
+- [Azure Local Calculator (Tool)](https://schmitt-nieto.com/azurelocal-calculator/)  
+  A calculator currently focused mainly on pricing, since storage is covered by S2D Calculator and CPU is a separate track; created by me and available open source at [Azure Local Calculator](https://github.com/schmittnieto/AzureLocal-Calculator).  
 
 ### Chats & Channels
 
