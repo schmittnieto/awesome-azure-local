@@ -101,7 +101,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ---
 
 ## OEMs  
-Resources from key original equipment manufacturers with dedicated Azure Local content.
+*Resources from key original equipment manufacturers with dedicated Azure Local content.*
 
 ### Dell
 
@@ -160,11 +160,11 @@ Resources from key original equipment manufacturers with dedicated Azure Local c
 
 ## Third Party  
 
-Independent vendors offering backup or AVD management solutions for Azure Local environments.
+*Independent vendors offering backup or AVD management solutions for Azure Local environments.*
 
 ### Backup Management  
 
-Software commonly used to perform backups of Azure Local infrastructure.
+*Software commonly used to perform backups of Azure Local infrastructure.*
 
 #### Veeam
 
@@ -182,7 +182,7 @@ Software commonly used to perform backups of Azure Local infrastructure.
 
 ### AVD Management  
 
-Software used to manage Azure Virtual Desktop infrastructure on Azure Local.
+*Software used to manage Azure Virtual Desktop infrastructure on Azure Local.*
 
 #### Nerdio
 
@@ -202,7 +202,7 @@ Software used to manage Azure Virtual Desktop infrastructure on Azure Local.
 
 ### Sizing
 
-Tools to estimate Azure Local sizing and choose the right hardware.
+*Tools to estimate Azure Local sizing and choose the right hardware.*
 
 #### Acuutech
 - [Acuutech - Azure Local Landing Page](https://www.acuutech.com/azurelocal/)  
@@ -214,7 +214,7 @@ Tools to estimate Azure Local sizing and choose the right hardware.
 
 ## Community  
 
-Resources that do not come from Microsoft, OEMs, or the vendors listed in the Third Party section.
+*Resources that do not come from Microsoft, OEMs, or the vendors listed in the Third Party section.*
 
 ### Blog  
 
@@ -251,7 +251,7 @@ Resources that do not come from Microsoft, OEMs, or the vendors listed in the Th
 
 ### LinkedIn  
 
-Most day-to-day news on Azure Local arrives first on LinkedIn. Here are two profiles worth following.
+*Most day-to-day news on Azure Local arrives first on LinkedIn. Here are two profiles worth following.*
 
 - [Darryl van der Peijl](https://www.linkedin.com/in/darrylvanderpeijl/)  
   One of the most active MVPs posting news and technical content. He also runs the [Azure Local Insider](https://www.linkedin.com/newsletters/7094952705042841602/) newsletter, which I recommend.  
@@ -268,7 +268,7 @@ Most day-to-day news on Azure Local arrives first on LinkedIn. Here are two prof
 
 ### YouTube  
 
-Channels that focus primarily on Azure Local rather than hosting only an occasional video.
+*Channels that focus primarily on Azure Local rather than hosting only an occasional video.*
 
 - [The Hybrid Friends](https://www.youtube.com/@thehybridfriends)  
   Practical use cases and deep dives in the Azure Local space.  
