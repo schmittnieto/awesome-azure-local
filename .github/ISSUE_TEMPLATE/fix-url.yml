@@ -1,0 +1,87 @@
+name: "Fix URL"
+description: "Report a broken or incorrect link."
+title: "[Fix] <title or area>"
+labels: ["fix", "triage"]
+body:
+  - type: input
+    id: current_title
+    attributes:
+      label: Current link title (as in README)
+      placeholder: "e.g., Azure Local Product Page"
+    validations:
+      required: true
+
+  - type: input
+    id: current_url
+    attributes:
+      label: Current URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: What needs fixing
+      options:
+        - Broken URL (404 or blocked)
+        - Redirects or tracking parameters
+        - Wrong category or section
+        - Wrong title
+        - Description needs update
+        - Duplicate entry
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: proposed_url
+    attributes:
+      label: Proposed new URL (if applicable)
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed_text
+    attributes:
+      label: Proposed new title or description (if applicable)
+      placeholder: "Provide the corrected text."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: new_section
+    attributes:
+      label: New target section (if moving)
+      options:
+        - Official > Azure Local
+        - Official > AVD
+        - Official > AKS
+        - Official > Backup and Disaster Recovery
+        - Official > GitHub Repositories
+        - OEMs > Dell
+        - OEMs > HPE
+        - OEMs > Lenovo
+        - OEMs > Fujitsu
+        - OEMs > DataON
+        - Community > Blog
+        - Community > LinkedIn
+        - Community > YouTube
+        - Community > Chats & Channels
+        - Community > Events
+        - Third Party > Backup Management
+        - Third Party > AVD Management
+        - Not moving
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I verified the proposed URL loads and matches the content.
+          required: false
+        - label: The proposed text is neutral and factual.
+          required: false

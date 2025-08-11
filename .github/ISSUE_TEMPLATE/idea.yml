@@ -1,0 +1,51 @@
+name: "Idea"
+description: "Suggest a new category, structure change, or general improvement."
+title: "[Idea] <short summary>"
+labels: ["idea", "discussion"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - New category or section
+        - Re-organization of TOC
+        - Style and wording
+        - Automation or tooling
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: "What is missing or what could be improved?"
+      placeholder: "Describe the gap or pain point."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: "Be as concrete as possible. Include example entries if relevant."
+      placeholder: "Explain what you propose and why."
+    validations:
+      required: true
+
+  - type: textarea
+    id: refs
+    attributes:
+      label: References (optional)
+      description: "Links or examples that support the idea."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: The proposal keeps the list neutral and non-promotional.
+          required: true

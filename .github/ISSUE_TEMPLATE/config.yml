@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions or quick chat
+    url: https://github.com/schmittnieto/awesome-azure-local/discussions
+    about: Use Discussions for general questions or clarifications.
