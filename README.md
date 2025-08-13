@@ -133,7 +133,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 - [Lenovo - Azure Local Landing Page](https://www.lenovo.com/us/en/resources/streams/microsoft-azure-stack-hci)  
   Lenovo landing page for Azure Local.  
-- [Lenovo - ThinkAgile MX Series for Microsoft Azure Local](https://lenovopress.lenovo.com/servers/thinkagile/mx-series)  
+- [Lenovo - ThinkAgile MX Series for Microsoft Azure Local](https://pubs.lenovo.com/thinkagile-mx/)  
   Installation and deployment guides for Azure Local and related services on Lenovo hardware.  
 - [Lenovo - SBE Page](https://pubs.lenovo.com/thinkagile-mx/de/mx_sbe)  
   Page for managing firmware and driver updates on Lenovo hardware.  
