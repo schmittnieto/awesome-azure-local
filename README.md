@@ -287,6 +287,9 @@ A curated list of links and resources for **Azure Local** and its related techno
   Use this Storage Spaces Direct Calculator to estimate storage capacity, resiliency, and hardware requirements for your Storage Spaces Direct (S2D) deployment.  
 - [Azure Local Calculator (Tool)](https://schmitt-nieto.com/azurelocal-calculator/)  
   A calculator currently focused mainly on pricing, since storage is covered by S2D Calculator and CPU is a separate track; created by me and available open source at [Azure Local Calculator](https://github.com/schmittnieto/AzureLocal-Calculator).  
+- [Azure Local Sizing Guides (GitHub)](https://github.com/jonathan-vella/azure-local-sizing-guides)  
+  Azure Local Sizing Guides provides comprehensive documentation, best practices, and tools for deploying and managing Azure services, such as AKS, AVD, and Arc-enabled SQL Managed Instance, on Azure Local. This repository is maintained by [Jonathan Vella](https://www.linkedin.com/in/jonathanvella/), Senior Cloud Solution Architect at Microsoft.
+
 
 ### Chats & Channels
 
