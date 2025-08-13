@@ -63,15 +63,17 @@ body:
         - OEMs > Dell
         - OEMs > HPE
         - OEMs > Lenovo
-        - OEMs > Fujitsu
         - OEMs > DataON
+        - OEMs > Fujitsu
+        - Third Party > Backup Management
+        - Third Party > AVD Management
+        - Third Party > Sizing
         - Community > Blog
         - Community > LinkedIn
         - Community > YouTube
+        - Community > Github Repos & Tools
         - Community > Chats & Channels
         - Community > Events
-        - Third Party > Backup Management
-        - Third Party > AVD Management
         - Not moving
     validations:
       required: false
