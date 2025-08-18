@@ -79,6 +79,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   How to create a Kubernetes cluster in the Azure portal; clusters are Azure Arc-connected by default.  
 - [SQL Managed Instance enabled by Azure Arc (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-arc/data/managed-instance-overview)  
   Azure SQL Managed Instance that runs on your infrastructure of choice through Arc Data Services inside an AKS cluster.  
+- [KAITO - Kubernetes AI toolchain operator (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/deploy-ai-model?tabs=portal)  
+  This article describes how to deploy an AI model on AKS enabled by Azure Arc with the Kubernetes AI toolchain operator (KAITO). 
 
 ### Backup and Disaster Recovery
 
@@ -222,32 +224,36 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 - [schmitt-nieto.com](https://schmitt-nieto.com/tags/#azure-local)  
   Yes, naming my own blog first is bad form, but here I share hands-on content about Azure Local implementation and management.  
+- [hybridcore.ca](https://hybridcore.ca/posts/adopting-azlocal-vms/)  
+  Blog by [Tiberiu Radu](https://www.linkedin.com/in/rtiberiu/) (Principal Program Manager for Azure Stack Hub and Azure Stack Edge at Microsoft) featuring, in my opinion, the best article on how to adopt (indirectly migrate) a VM from Hyper-V to Azure Local.
+- [mikemdm.de](https://mikemdm.de/tag/azure-local/)  
+  Blog by MVP [Michael Meier](https://www.linkedin.com/in/michael-meier-ba3b72210/) covering the topic Azure Local and AVD Labs.
 - [blog.graa.dev](https://blog.graa.dev/tags/azure-local/)  
-  Blog by MVP Erik Grina Raassum focused on Azure Local and PowerShell implementations.  
+  Blog by MVP [Erik Grina Raassum](https://www.linkedin.com/in/erikgraa/) focused on Azure Local and PowerShell implementations.  
 - [jtpedersen.com](https://jtpedersen.com/)  
-  Blog by MVP Jan-Tore Pedersen covering Azure Local troubleshooting and insights.  
+  Blog by MVP [Jan-Tore Pedersen](https://www.linkedin.com/in/jan-tore-pedersen-4863a82/) covering Azure Local troubleshooting and insights.  
 - [azurelab.blog](https://www.azurelab.blog/)  
-  Italian-language blog by Luigi Pandolfino (MVP) and others about Azure Local and related topics.  
+  Italian-language blog by [Luigi Pandolfino (MVP)](https://www.linkedin.com/in/pandolfino/) and others about Azure Local and related topics.  
 - [chkja.dk](https://www.chkja.dk/)  
-  Blog by Christoffer Klarskov Jakobsen featuring Azure Local implementations.  
+  Blog by [Christoffer Klarskov Jakobsen](https://www.linkedin.com/in/christoffer-klarskov-jakobsen-7b168266/) featuring Azure Local implementations.  
 - [thisismydemo.cloud](https://thisismydemo.cloud/tags/azure-local/)  
-  Blog by MVP Kristopher Turner on Azure Local and infrastructure solutions.  
+  Blog by MVP [Kristopher Turner](https://www.linkedin.com/in/kristopherjturner/) on Azure Local and infrastructure solutions.  
 - [francescomolfese.it](https://francescomolfese.it/en/)  
-  Blog by MVP Francesco Molfese focused on Azure Local and IaC.  
+  Blog by MVP [Francesco Molfese](https://www.linkedin.com/in/francescomolfese/) focused on Azure Local and IaC.  
 - [auxiliumtechtalk.com](https://www.auxiliumtechtalk.com/home/categories/azure-local)  
-  Blog by Alyn Peden discussing real-world Azure Local scenarios.  
+  Blog by [Alyn Peden](https://www.linkedin.com/in/alyn-p-0989975b/) discussing real-world Azure Local scenarios.  
 - [jakewalsh.co.uk](https://jakewalsh.co.uk/tag/azure-local/)  
-  Blog by MVP Jake Walsh on Azure Local implementations.  
+  Blog by MVP [Jake Walsh](https://www.linkedin.com/in/jakewalsh90/) on Azure Local implementations.  
 - [silviodibenedetto.com](https://www.silviodibenedetto.com/)  
-  Blog by MVP Silvio Di Benedetto on Azure Local and related topics.  
+  Blog by MVP [Silvio Di Benedetto](https://www.linkedin.com/in/silviodibenedetto/) on Azure Local and related topics.  
 - [hciharrison.com](https://www.hciharrison.com/)  
-  Blog by MVP Lee Harrison covering all things Azure Local.  
+  Blog by MVP [Lee Harrison](https://www.linkedin.com/in/lee-harrison-749b7215/) covering all things Azure Local.  
 - [kennylowe.org](https://kennylowe.org/)  
-  Blog by MVP Kenny Lowe on Azure Local and infrastructure.  
+  Blog by MVP [Kenny Lowe](https://www.linkedin.com/in/kennylowe1/) on Azure Local and infrastructure.  
 - [erniecosta.com](https://www.erniecosta.com/blog/)  
-  Blog by MVP Ernie Costa focusing on Azure Local, Storage Spaces Direct and services. 
+  Blog by MVP [Ernie Costa](https://www.linkedin.com/in/erniecosta/) focusing on Azure Local, Storage Spaces Direct and services. 
 - [thomasmaurer.ch](https://www.thomasmaurer.ch/)  
-  Blog by former Microsoft employee Thomas Maurer (Principal Program Manager & Chief Evangelist for Azure Hybrid) covering a wide range of Azure services, including Azure Local.  
+  Blog by former Microsoft employee [Thomas Maurer](https://www.linkedin.com/in/thomasmaurer2/) (Principal Program Manager & Chief Evangelist for Azure Hybrid) covering a wide range of Azure services, including Azure Local.  
 
 ### LinkedIn  
 
