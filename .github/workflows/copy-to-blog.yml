@@ -20,9 +20,6 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           path: blog_destination
 
-      - name: Purge Camo Images
-        uses: kevincobain2000/action-camo-purge@v1
-
       - name: Copy Files
         run: |
           SOURCE_DIR="${{ github.workspace }}"
