@@ -37,7 +37,7 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [Events](#events)
 
 ---
-
+<!-- AWESOMEAZURELOCAL:START -->
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
@@ -305,7 +305,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ### Events
 
 - [Microsoft Ignite - Azure Hybrid Sessions](https://ignite.microsoft.com/en-US/home)
-
+<!-- AWESOMEAZURELOCAL:END -->
 ---
 
 > Contributions are welcome. Please submit a pull request or an issue with verified links or improvements.
