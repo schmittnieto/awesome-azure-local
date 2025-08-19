@@ -8,6 +8,7 @@ on:
 jobs:
   copy-files:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Source Repository
         uses: actions/checkout@v4
@@ -25,9 +26,12 @@ jobs:
       - name: Copy Files
         run: |
           SOURCE_DIR="${{ github.workspace }}"
-          DEST_DIR="${{ github.workspace }}/blog_destination/assets/repo/AwesomeAzureLocal"
+          DEST_DIR="${{ github.workspace }}/blog_destination/assets/repo/awesome-azure-local"
           mkdir -p "$DEST_DIR"
-          rsync -av --exclude='.git' --exclude='blog_destination' "$SOURCE_DIR/" "$DEST_DIR/"
+          rsync -av \
+            --exclude='.git' \
+            --exclude='blog_destination' \
+            "$SOURCE_DIR/" "$DEST_DIR/"
 
       - name: Commit and Push Changes
         working-directory: blog_destination
@@ -35,5 +39,5 @@ jobs:
           git config user.name "schmittnieto"
           git config user.email "cristian@schmitt-nieto.com"
           git add .
-          git commit -m "Update files from AwesomeAzureLocal repository"
+          git commit -m "Sync Awesome Azure Local into blog assets" || echo "No changes to commit"
           git push origin main
