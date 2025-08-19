@@ -1,0 +1,39 @@
+name: Copy Files to Blog Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  copy-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v4
+
+      - name: Checkout Destination Repository
+        uses: actions/checkout@v4
+        with:
+          repository: schmittnieto/schmittnieto.github.io
+          token: ${{ secrets.GH_PAT }}
+          path: blog_destination
+
+      - name: Purge Camo Images
+        uses: kevincobain2000/action-camo-purge@v1
+
+      - name: Copy Files
+        run: |
+          SOURCE_DIR="${{ github.workspace }}"
+          DEST_DIR="${{ github.workspace }}/blog_destination/assets/repo/AwesomeAzureLocal"
+          mkdir -p "$DEST_DIR"
+          rsync -av --exclude='.git' --exclude='blog_destination' "$SOURCE_DIR/" "$DEST_DIR/"
+
+      - name: Commit and Push Changes
+        working-directory: blog_destination
+        run: |
+          git config user.name "schmittnieto"
+          git config user.email "cristian@schmitt-nieto.com"
+          git add .
+          git commit -m "Update files from AwesomeAzureLocal repository"
+          git push origin main
