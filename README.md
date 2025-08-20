@@ -34,6 +34,7 @@ A curated list of links and resources for **Azure Local** and its related techno
   - [YouTube](#youtube)  
   - [Github Repos & Tools](#github-repos--tools)  
   - [Chats & Channels](#chats--channels)  
+  - [Trainings](#trainings)
   - [Events](#events)
 
 ---
@@ -91,6 +92,8 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 ### GitHub Repositories
 
+- [Jumpstart Local Box](https://jumpstart.azure.com/azure_jumpstart_localbox/getting_started)   
+  LocalBox is a turnkey solution that provides a complete sandbox for exploring Azure Local capabilities and hybrid cloud integration in a virtualized environment (hosted on Azure).  
 - [Arc Jumpstart source code](https://github.com/microsoft/azure_arc)  
   Source for Arc Jumpstart automation scripts and tools, supporting the official documentation site.  
 - [Azure Local Supportability Forum](https://github.com/Azure/AzureLocal-Supportability)  
@@ -287,6 +290,8 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 ### Github Repos & Tools
 
+- [schmittnieto - AzSHCI (GitHub)](https://github.com/schmittnieto/AzSHCI)   
+  This repository brings together multiple scripts, each with its own purpose and structure, allowing you to spin up a fully functioning Azure Local environment quickly.  
 - [bfrankMS - AzureLocal_AzStackHCI (GitHub)](https://github.com/bfrankMS/AzureLocal_AzStackHCI)  
   Azure Local repository with findings on automating installations of HCI, AKS, and AVD.  
 - [S2D Capacity Calculator (Tool)](https://s2d-calculator.com/)  
@@ -301,6 +306,10 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 - [Azure Local Slack Channel](https://aka.ms/azurelocal-slack)  
   Slack channel (the real Community) managed by Darryl van der Peijl that provides community support for all Azure Local questions.  
+
+### Trainings
+- [Azure Local Training](https://360.articulate.com/review/content/6c4554d6-8ccc-4b9b-bc6b-328c7429efce/review)   
+  Training module covering how to deploy and register Azure Local using OEM licenses, among other key topics.  
 
 ### Events
 
