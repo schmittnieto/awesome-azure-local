@@ -62,6 +62,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   Link describing the contractual requirements for using Azure Hybrid Benefit with Azure Local. 
 - [Azure Local Solutions Category](https://azurelocalsolutions.azure.microsoft.com/#/Learn)  
   Overview of Azure Local solution types, outlining the differences between Validated Systems, Integrated Systems, and Premier solution.
+- [Azure Local Security Book (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/security-book/overview)  
+  The Azure Local security book discusses in detail the built-in security layers found in Azure Local, from core to cloud.
 
 ### AVD
 
