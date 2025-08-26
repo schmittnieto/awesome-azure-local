@@ -302,14 +302,17 @@ A curated list of links and resources for **Azure Local** and its related techno
   This repository brings together multiple scripts, each with its own purpose and structure, allowing you to spin up a fully functioning Azure Local environment quickly.  
 - [bfrankMS - AzureLocal_AzStackHCI (GitHub)](https://github.com/bfrankMS/AzureLocal_AzStackHCI)  
   Azure Local repository with findings on automating installations of HCI, AKS, and AVD.  
+- [Azure Local Sizing Guides (GitHub)](https://github.com/jonathan-vella/azure-local-sizing-guides)  
+  Azure Local Sizing Guides provides comprehensive documentation, best practices, and tools for deploying and managing Azure services, such as AKS, AVD, and Arc-enabled SQL Managed Instance, on Azure Local. This repository is maintained by [Jonathan Vella](https://www.linkedin.com/in/jonathanvella/), Senior Cloud Solution Architect at Microsoft.
+- [VMWare to Hyper-V VM Conversion tool in Windows Admin Center (Tool)](https://techcommunity.microsoft.com/blog/windowsservernewsandbestpractices/introducing-the-vm-conversion-tool-in-windows-admin-center-%E2%80%93-public-preview/4446604)  
+  This agentless, cost-free tool streamlines the conversion of virtual machines from VMware to Windows Server with Hyper-V.
 - [S2D Capacity Calculator (Tool)](https://s2d-calculator.com/)  
   Use this Storage Spaces Direct Calculator to estimate storage capacity, resiliency, and hardware requirements for your Storage Spaces Direct (S2D) deployment.  
 - [Azure Local Calculator (Tool)](https://schmitt-nieto.com/azurelocal-calculator/)  
   A calculator currently focused mainly on pricing, since storage is covered by S2D Calculator and CPU is a separate track; created by me and available open source at [Azure Local Calculator](https://github.com/schmittnieto/AzureLocal-Calculator).  
 - [AVD - FSLogix Profile Status (Tool)](https://www.linkedin.com/posts/drazen-nikolic-816906142_avd-microsoft-azurevirtualdesktop-ugcPost-7364022385827557376-NEle)  
   After the deprecation of FXTray, it became difficult to check the status of FSLogix profiles. With this PowerShell script, it is once again possible to verify profile status in a simple and centralized way.
-- [Azure Local Sizing Guides (GitHub)](https://github.com/jonathan-vella/azure-local-sizing-guides)  
-  Azure Local Sizing Guides provides comprehensive documentation, best practices, and tools for deploying and managing Azure services, such as AKS, AVD, and Arc-enabled SQL Managed Instance, on Azure Local. This repository is maintained by [Jonathan Vella](https://www.linkedin.com/in/jonathanvella/), Senior Cloud Solution Architect at Microsoft.
+
 
 
 ### Chats & Channels
