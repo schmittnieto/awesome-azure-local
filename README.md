@@ -240,6 +240,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   Yes, naming my own blog first is bad form, but here I share hands-on content about Azure Local implementation and management.  
 - [hybridcore.ca](https://hybridcore.ca/posts/adopting-azlocal-vms/)  
   Blog by [Tiberiu Radu](https://www.linkedin.com/in/rtiberiu/)  featuring, in my opinion, the best article on how to adopt (indirectly migrate) a VM from Hyper-V to Azure Local.
+- [darifer.net](https://www.darifer.net/index.php/category/azure-local/)  
+  Blog by [David Rivera](https://www.linkedin.com/in/davidriverafer) with detailed posts in Spanish on Azure Local, covering version upgrades, deployment and comparisons with Windows Server.
 - [mikemdm.de](https://mikemdm.de/tag/azure-local/)  
   Blog by MVP [Michael Meier](https://www.linkedin.com/in/michael-meier-ba3b72210/) covering the topic Azure Local and AVD Labs.
 - [blog.graa.dev](https://blog.graa.dev/tags/azure-local/)  
