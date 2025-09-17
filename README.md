@@ -139,6 +139,9 @@ A curated list of links and resources for **Azure Local** and its related techno
   Technical white paper with solution guidelines and example configurations for Azure Local HCI on HPE ProLiant, Alletra, and Edgeline servers.  
 - [HPE - SBE Page](https://myenterpriselicense.hpe.com/cwp-ui/product-details/SBE_UPDATES/-/sw_free)  
   Page for managing firmware and driver updates on HPE hardware.  
+- [HPE - ProLiant for Azure Local Firmware and Software Compatibility Guide](https://support.hpe.com/hpesc/public/docDisplay?docId=sd00003953en_us&page=GUID-86C4BE9C-0B69-4596-B333-69D099B3DC65.html)  
+  A list of components, drivers and their status for system installation, especially useful for Validated Systems.
+
 
 ### Lenovo
 
