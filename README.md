@@ -329,6 +329,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   Slack channel (the real Community) managed by Darryl van der Peijl that provides community support for all Azure Local questions.  
 
 ### Trainings
+- [Azure Local Accreditation 2025](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/)  
+  Part of the official Microsoft Learn documentation, this training path helps you get in touch with Azure Local and its core capabilities.
 - [Azure Local Training](https://360.articulate.com/review/content/6c4554d6-8ccc-4b9b-bc6b-328c7429efce/review)   
   Training module covering how to deploy and register Azure Local using OEM licenses, among other key topics.  
 
