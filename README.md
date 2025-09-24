@@ -340,6 +340,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 |------------------------------------|-----------------------------------------------------------------------------|----------------------|--------|------|
 | ~~[AVD Tech Fest - Berlin (Germany)](https://www.controlup.com/de/avd-techfest-2025/)~~ | Community-driven event focused on Azure Virtual Desktop and Azure Local integration. | ~~99 €~~ | ~~No~~ | ~~September 10-11, 2025~~ |
 | [Microsoft Ignite - San Francisco (USA)](https://register.ignite.microsoft.com/) | Flagship Microsoft conference featuring hybrid cloud and Azure Local sessions. | 2325 $ | Yes (Digital pass are **Free**) | November 17-21, 2025 |
+| [Microsoft Ignite 2025 - Breakout Session BRK147](https://ignite.microsoft.com/en-US/sessions/BRK147?source=sessions) | Discover what's new in Azure Local, see a live demo, and hear from a customer modernizing operations and enabling AI in a regulated environment. | Included in Ignite pass | Yes | November 18, 2025 |
 | [HybrIT - Würzburg (Germany)](https://www.manfredhelber.de/hybrit-conference-2025/) | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299–599 € | No | November 26-27, 2025 |
 
 
