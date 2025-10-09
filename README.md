@@ -127,6 +127,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   Page for managing firmware and driver updates on Dell hardware.  
 - [Dell - External Storage with PowerFlex for Azure Local (White Paper)](https://www.delltechnologies.com/asset/en-us/products/converged-infrastructure/technical-support/reliable-performance-at-scale-white-paper.pdf)  
   White paper explaining the possibility and results of adding external storage to Azure Local as Cluster Storage using Dell PowerFlex (currently the only supported option).
+- [Dell - How to Expand a CSV in PowerShell and Windows Admin Center](https://www.dell.com/support/kbdoc/en-us/000195872/how-to-expand-a-csv-in-ps-and-wac)  
+  Guide explaining how to expand a Cluster Shared Volume (CSV) or Virtual Disk in Storage Spaces Direct (S2D) using PowerShell and Windows Admin Center.
 
 
 ### HPE
