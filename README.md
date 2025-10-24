@@ -65,6 +65,8 @@ A curated list of links and resources for **Azure Local** and its related techno
   Overview of Azure Local solution types, outlining the differences between Validated Systems, Integrated Systems, and Premier solution.
 - [Azure Local Security Book (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/security-book/overview)  
   The Azure Local security book discusses in detail the built-in security layers found in Azure Local, from core to cloud.
+- [Optimize Azure Local using insights from a Well-Architected Review Assessment](https://techcommunity.microsoft.com/blog/AzureArchitectureBlog/optimize-azure-local-using-insights-from-a-well-architected-review-assessment/4458433)  
+  Guidance on evaluating Azure Local environments with the Well-Architected Framework assessment to identify risks, measure maturity, and improve architecture quality.
 
 ### AVD
 
