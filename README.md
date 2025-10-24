@@ -67,6 +67,10 @@ A curated list of links and resources for **Azure Local** and its related techno
   The Azure Local security book discusses in detail the built-in security layers found in Azure Local, from core to cloud.
 - [Optimize Azure Local using insights from a Well-Architected Review Assessment](https://techcommunity.microsoft.com/blog/AzureArchitectureBlog/optimize-azure-local-using-insights-from-a-well-architected-review-assessment/4458433)  
   Guidance on evaluating Azure Local environments with the Well-Architected Framework assessment to identify risks, measure maturity, and improve architecture quality.
+- [Azure Local Baseline Architecture](https://learn.microsoft.com/en-us/azure/architecture/hybrid/azure-local-baseline)  
+  Baseline reference architecture providing workload-agnostic guidance for configuring Azure Local 2311 and later, ensuring a reliable platform for highly available virtualized and containerized workloads.  
+- [Architecture Best Practices for Azure Local](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-local)  
+  Guidance aligned with the Azure Well-Architected Framework that outlines architectural recommendations for Azure Local and Azure Arc, supporting hybrid and edge deployments across validated hardware.  
 
 ### AVD
 
@@ -87,6 +91,10 @@ A curated list of links and resources for **Azure Local** and its related techno
   Azure SQL Managed Instance that runs on your infrastructure of choice through Arc Data Services inside an AKS cluster.  
 - [KAITO - Kubernetes AI toolchain operator (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/deploy-ai-model?tabs=portal)  
   This article describes how to deploy an AI model on AKS enabled by Azure Arc with the Kubernetes AI toolchain operator (KAITO). 
+- [Azure Kubernetes Service (AKS) Baseline Architecture for AKS on Azure Local](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/aks-baseline)  
+  Scenario describing how to design and implement a baseline architecture for Azure Kubernetes Service (AKS) running on Azure Local.  
+- [Deploy and operate apps with AKS enabled by Azure Arc on Azure Local](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/aks-hybrid-azure-local)  
+  Recommendations for building an app deployment pipeline for containerized workloads using AKS enabled by Azure Arc on Azure Local, with guidance for GitOps-based operations.
 
 ### Backup and Disaster Recovery
 
