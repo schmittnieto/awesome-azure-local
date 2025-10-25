@@ -43,6 +43,53 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
+### What's new in Azure Local (version 2510)
+
+[What's new in Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2510)
+
+This release introduces several important updates and improvements across the platform:
+
+#### OS changes
+- All new Azure Local deployments now run on **OS version 26100.6899** (based on Windows Server 2025).  
+  You can download the 2510 OS image from the Azure portal.  
+- Requires compatible drivers for **26100.6899** or Windows Server 2025. If unavailable, you can use the 2503 image.  
+- Existing deployments remain on **OS version 25398.1913**. See the [Release information summary](https://learn.microsoft.com/en-us/azure/azure-local/release-information-23h2).  
+- Integrated System and Premier solution hardware from the [Azure Local Catalog](https://aka.ms/AzureStackHCICatalog) ship with preinstalled OS.  
+  Contact your OEM for images compatible with **12.2510.1002.88** and the required drivers.
+
+#### .NET updates
+- The build now includes **.NET 8.0.21** for both .NET Runtime and ASP.NET Core.  
+  Learn more at [Download .NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0).
+
+#### Rack Aware Clustering (Preview)
+- Azure Local now supports **rack aware clustering**, enabling local availability zones based on physical racks to improve resilience against rack-level failures.  
+  More details at [Rack aware clustering](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview).
+
+#### Upgrade
+- Upgrades from **11.2510 to 12.2510** are now generally available and no longer require opt-in.
+
+#### Azure Local VM updates
+- **Software Defined Networking (SDN)** is now **GA**, allowing creation and management of NSGs and network security rules for Azure Local VMs through Azure Arc.  
+  More info: [SDN enabled by Azure Arc](https://learn.microsoft.com/en-us/azure/azure-local/concepts/sdn-overview).  
+- **Trusted Virtual Machine (Trusted VM) guest attestation (Preview)** introduces verification for Trusted Launch VMs, ensuring boot integrity across firmware, OS boot loader, and drivers.  
+  More info: [Trusted VM guest attestation](https://learn.microsoft.com/en-us/azure/azure-local/manage/trusted-launch-guest-attestation).
+
+#### Azure Local deployment using local identity
+- The **Local Identity deployment** feature has moved from Limited Preview to **Preview** with improved documentation and Key Vault guidance.  
+  Includes new FAQs and compatibility sections.  
+  See [Deploy Azure Local using local identity with Azure Key Vault](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-local-identity-with-key-vault).
+
+#### VMware migration to Azure Local
+- Now **GA**, allowing VMware VM migration to Azure Local via **Azure Migrate**.  
+  Learn more: [Migrate VMware VMs to Azure Local](https://learn.microsoft.com/en-us/azure/azure-local/migrate/migration-azure-migrate-vmware-overview).
+
+#### OEM image support for registration
+- **OEM images** are now supported for registering Azure Local machines with or without proxy.  
+  See [Register with Arc gateway](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-with-azure-arc-gateway) and  
+  [Register without Arc gateway](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-without-azure-arc-gateway).
+  
+
+
 ### Azure Local
 
 - [Azure Local Product Page](https://azure.com/hci)  
@@ -71,6 +118,10 @@ A curated list of links and resources for **Azure Local** and its related techno
   Baseline reference architecture providing workload-agnostic guidance for configuring Azure Local 2311 and later, ensuring a reliable platform for highly available virtualized and containerized workloads.  
 - [Architecture Best Practices for Azure Local](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-local)  
   Guidance aligned with the Azure Well-Architected Framework that outlines architectural recommendations for Azure Local and Azure Arc, supporting hybrid and edge deployments across validated hardware.  
+- [Rack Aware Cluster (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview?view=azloc-2510)  
+  This article provides an overview of the **Azure Local rack aware clustering** feature, including its benefits, use cases, supported configurations, and deployment requirements. Applies only to new deployments of Azure Local.  
+- [SDN enabled by Arc on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/sdn-overview?view=azloc-2510)  
+  This article explains **Software Defined Networking (SDN)** enabled by Azure Arc on Azure Local. It describes SDN management methods, guidance on when to use each approach, and outlines supported and unsupported SDN scenarios.  
 
 ### AVD
 
