@@ -193,7 +193,7 @@ This release introduces several important updates and improvements across the pl
   Page for managing firmware and driver updates on HPE hardware.  
 - [HPE - ProLiant for Azure Local Firmware and Software Compatibility Guide](https://support.hpe.com/hpesc/public/docDisplay?docId=sd00003953en_us&page=GUID-86C4BE9C-0B69-4596-B333-69D099B3DC65.html)  
   A list of components, drivers and their status for system installation, especially useful for Validated Systems.
-- [HPE - DL380 now part of Premier Solution category](https://www.hpe.com/us/en/newsroom/press-release/2025/10/hpe-advances-government-and-enterprise-ai-adoption-through-secure-ai-factory-innovations-with-nvidia.html)  
+- [HPE - DL380 now part of Premier Solution category](https://community.hpe.com/t5/alliances/elevating-innovation-hpe-proliant-dl380-server-premier-solution/ba-p/7257651)  
   Announcement confirming that HPE ProLiant DL380 systems are now included in the **Azure Local Premier Solution** category, expanding supported configurations for enterprise and AI workloads.
 
 ### Lenovo
