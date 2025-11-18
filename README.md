@@ -136,6 +136,8 @@ This release introduces several important updates and improvements across the pl
   Scenario describing how to design and implement a baseline architecture for Azure Kubernetes Service (AKS) running on Azure Local.  
 - [Deploy and operate apps with AKS enabled by Azure Arc on Azure Local](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/aks-hybrid-azure-local)  
   Recommendations for building an app deployment pipeline for containerized workloads using AKS enabled by Azure Arc on Azure Local, with guidance for GitOps-based operations.
+- [AKS on Azure Local scale requirements](https://learn.microsoft.com/en-us/azure/aks/aksarc/scale-requirements)  
+  This article describes the minimum and maximum supported scale limits for AKS on Azure Local clusters and node pools.
 
 ### Backup and Disaster Recovery
 
