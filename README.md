@@ -8,13 +8,14 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2510)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2511)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
   - [Backup and Disaster Recovery](#backup-and-disaster-recovery)  
   - [GitHub Repositories](#github-repositories)
 - [OEMs](#oems)  
+  - [SBE](#SBE) 
   - [Dell](#dell)  
   - [HPE](#hpe)  
   - [Lenovo](#lenovo)  
@@ -44,41 +45,28 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2510)
+### What's new in Azure Local (version 2511)
 
-[What's new in Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2510)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2511)
 
-This release introduces several important updates and improvements across the platform:
+The **November 2025 release (12.2511.1002.5)** introduces several updates focused on reliability, cloud-based operations, and platform consistency.
 
 #### OS changes
-- All new Azure Local deployments now run on **OS version 26100.6899** (based on Windows Server 2025).  
-  You can download the 2510 OS image from the Azure portal.  
-- Requires compatible drivers for **26100.6899** or Windows Server 2025. If unavailable, you can use the 2503 image.  
-- Existing deployments remain on **OS version 25398.1913**. See the [Release information summary](https://learn.microsoft.com/en-us/azure/azure-local/release-information-23h2).  
-- Integrated System and Premier solution hardware from the [Azure Local Catalog](https://aka.ms/AzureStackHCICatalog) ship with preinstalled OS.  
-  Contact your OEM for images compatible with **12.2510.1002.88** and the required drivers.
+- All new and existing deployments now run **OS version 26100.7171**.  
+- The 2511 OS image is available in the Azure portal.
+- Requires drivers compatible with **26100.7171** or Windows Server 2025 (2503 image may be used if drivers are not available).
+- Integrated System and Premier hardware include the OS preinstalled; OEMs supply images compatible with **12.2511.1002.5**.
 
 #### .NET updates
-- The build now includes **.NET 8.0.21** for both .NET Runtime and ASP.NET Core. Learn more at [Download .NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0).
+- Updated to **.NET 8.0.22** for both .NET Runtime and ASP.NET Core.
 
-#### Rack Aware Clustering (Preview)
-- Azure Local now supports **rack aware clustering**, enabling local availability zones based on physical racks to improve resilience against rack-level failures. More details at [Rack aware clustering](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview).
+#### Reliability and fixes
+This release includes several deployment and update improvements, such as:
+- Reduced reliance on DNS during cluster name resolution.
+- Deployment fixes for domain join hangs and DNS readiness.
+- Azure Local VM upgrade improvements (cluster functional level for 24H2).
+- Update reliability fixes for Azure Update Manager (health check visibility, cumulative update handling, and progress reporting).
 
-#### Upgrade
-- Upgrades from **11.2510 to 12.2510** are now generally available and no longer require opt-in.
-
-#### Azure Local VM updates
-- **Software Defined Networking (SDN)** is now **GA**, allowing creation and management of NSGs and network security rules for Azure Local VMs through Azure Arc. More info: [SDN enabled by Azure Arc](https://learn.microsoft.com/en-us/azure/azure-local/concepts/sdn-overview).  
-- **Trusted Virtual Machine (Trusted VM) guest attestation (Preview)** introduces verification for Trusted Launch VMs, ensuring boot integrity across firmware, OS boot loader, and drivers. More info: [Trusted VM guest attestation](https://learn.microsoft.com/en-us/azure/azure-local/manage/trusted-launch-guest-attestation).
-
-#### Azure Local deployment using local identity
-- The **Local Identity deployment** feature has moved from Limited Preview to **Preview** with improved documentation and Key Vault guidance. Includes new FAQs and compatibility sections. See [Deploy Azure Local using local identity with Azure Key Vault](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-local-identity-with-key-vault).
-
-#### VMware migration to Azure Local
-- Now **GA**, allowing VMware VM migration to Azure Local via **Azure Migrate**. Learn more: [Migrate VMware VMs to Azure Local](https://learn.microsoft.com/en-us/azure/azure-local/migrate/migration-azure-migrate-vmware-overview).
-
-#### OEM image support for registration
-- **OEM images** are now supported for registering Azure Local machines with or without proxy. See [Register with Arc gateway](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-with-azure-arc-gateway) and [Register without Arc gateway](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-without-azure-arc-gateway).
 
 ### Azure Local
 
@@ -166,6 +154,15 @@ This release introduces several important updates and improvements across the pl
 
 ## OEMs  
 *Resources from key original equipment manufacturers with dedicated Azure Local content.*
+
+### SBE
+
+- [Dell Azure Local SBE Updates](https://aka.ms/AzureStackSBEUpdate/DellEMC)  
+  Main entry point for Dell firmware and driver update bundles validated for Azure Local.
+- [Lenovo Azure Local SBE Updates](https://aka.ms/AzureStackSBEUpdate/Lenovo)  
+  Main entry point for Lenovo firmware and driver update bundles validated for Azure Local.
+- [HPE Azure Local SBE Updates](https://aka.ms/AzureStackSBEUpdate/HPE)  
+  Main entry point for HPE firmware and driver update bundles validated for Azure Local.
 
 ### Dell
 
