@@ -396,7 +396,8 @@ This release includes several deployment and update improvements, such as:
 | ~~[AVD Tech Fest - Berlin (Germany)](https://www.controlup.com/de/avd-techfest-2025/)~~ | Community-driven event focused on Azure Virtual Desktop and Azure Local integration. | ~~99 €~~ | ~~No~~ | ~~September 10-11, 2025~~ |
 | ~~[Microsoft Ignite - San Francisco (USA)](https://register.ignite.microsoft.com/)~~ | Flagship Microsoft conference featuring hybrid cloud and Azure Local sessions. | 2325 $ | Yes (Digital pass are **Free**) | November 17-21, 2025 |
 | ~~[Microsoft Ignite 2025 - Breakout Session BRK147](https://ignite.microsoft.com/en-US/sessions/BRK147?source=sessions)~~ | Discover what's new in Azure Local, see a live demo, and hear from a customer modernizing operations and enabling AI in a regulated environment. | Included in Ignite pass | Yes | November 18, 2025 |
-| [HybrIT - Würzburg (Germany)](https://www.manfredhelber.de/hybrit-conference-2025/) | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299–599 € | No | November 26-27, 2025 |
+| ~~[HybrIT - Würzburg (Germany)](https://www.manfredhelber.de/hybrit-conference-2025/)~~ | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299–599 € | No | November 26-27, 2025 |
+| [MC2MC - Antwerp (Belgium)](https://connect.mc2mc.be/agenda/) | MC2MC Connect is a dynamic, full-day event for tech professionals, enthusiasts, and IT decision-makers, centered on three core Microsoft focus areas: Cloud / Hybrid, Endpoint & Security, Compliance and Identity | 137,81-162,14 € | No | February 05, 2026 |
 
 
 <!-- AWESOMEAZURELOCAL:END -->
