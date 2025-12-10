@@ -96,9 +96,9 @@ This release includes several deployment and update improvements, such as:
   Baseline reference architecture providing workload-agnostic guidance for configuring Azure Local 2311 and later, ensuring a reliable platform for highly available virtualized and containerized workloads.  
 - [Architecture Best Practices for Azure Local](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-local)  
   Guidance aligned with the Azure Well-Architected Framework that outlines architectural recommendations for Azure Local and Azure Arc, supporting hybrid and edge deployments across validated hardware.  
-- [Rack Aware Cluster (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview?view=azloc-2510)  
+- [Rack Aware Cluster (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview)  
   This article provides an overview of the Azure Local rack aware clustering feature, including its benefits, use cases, supported configurations, and deployment requirements. Applies only to new deployments of Azure Local.  
-- [SDN enabled by Arc on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/sdn-overview?view=azloc-2510)  
+- [SDN enabled by Arc on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/sdn-overview)  
   This article explains Software Defined Networking (SDN) enabled by Azure Arc on Azure Local. It describes SDN management methods, guidance on when to use each approach, and outlines supported and unsupported SDN scenarios.  
 - [What's new in Azure Local for distributed locations (Tech Community)](https://techcommunity.microsoft.com/blog/azurearcblog/what%E2%80%99s-new-in-azure-local-cloud-infrastructure-for-distributed-locations-enabled/4469773)  
   Summary of Azure Ignite 2025 announcements highlighting SAN support (Preview), rack aware clustering (Preview), NVIDIA RTX PRO 6000 Blackwell Server Edition GPU support (GA), Azure Local for larger deployments (Preview), network segmentation (GA) and local identity with Azure Key Vault (Preview).
