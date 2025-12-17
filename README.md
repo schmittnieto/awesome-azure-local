@@ -8,7 +8,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2511)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2512)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
@@ -45,27 +45,38 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2511)
+### What's new in Azure Local (version 2512)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2511)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2512)
 
-The **November 2025 release (12.2511.1002.5)** introduces several updates focused on reliability, cloud-based operations, and platform consistency.
+**Version:** 12.2512.1002.16  
+**Release date:** December 2025
 
-#### OS changes
-- All new and existing deployments now run **OS version 26100.7171**.  
-- The 2511 OS image is available in the Azure portal.
-- Requires drivers compatible with **26100.7171** or Windows Server 2025 (2503 image may be used if drivers are not available).
-- Integrated System and Premier hardware include the OS preinstalled; OEMs supply images compatible with **12.2511.1002.5**.
+A focused update centered on reliability, simpler deployments, and expanded GPU capabilities.
 
-#### .NET updates
-- Updated to **.NET 8.0.22** for both .NET Runtime and ASP.NET Core.
+#### Platform and OS
+- Unified operating system across all new and existing deployments.
+- New baseline OS version **26100.7462**, aligned with Windows Server 2025.
+- OEM Integrated and Premier systems ship with the OS preinstalled and validated.
 
-#### Reliability and fixes
-This release includes several deployment and update improvements, such as:
-- Reduced reliance on DNS during cluster name resolution.
-- Deployment fixes for domain join hangs and DNS readiness.
-- Azure Local VM upgrade improvements (cluster functional level for 24H2).
-- Update reliability fixes for Azure Update Manager (health check visibility, cumulative update handling, and progress reporting).
+#### Deployment experience
+- Cluster registration is now simplified.
+- Uses **system-assigned managed identity** instead of service principals and self-signed certificates.
+- Fewer prerequisites and a cleaner Azure portal–driven deployment flow.
+
+#### Runtime updates
+- Platform updated to **.NET 8.0.22** for runtime and ASP.NET Core components.
+
+#### AKS and GPU
+- **Preview support for NVIDIA L-series GPUs** on AKS enabled by Azure Arc.
+- Enables GPU-accelerated workloads on Azure Local–based Kubernetes clusters.
+
+#### Networking and documentation
+- Updated guidance for **SDN upgrade infrastructure**.
+- Cleanup of legacy Azure Stack HCI renaming references across documentation and portal views.
+
+#### Reliability
+- Multiple reliability improvements and general bug fixes across deployment and operations.
 
 
 ### Azure Local
