@@ -409,6 +409,7 @@ A focused update centered on reliability, simpler deployments, and expanded GPU 
 | ~~[Microsoft Ignite 2025 - Breakout Session BRK147](https://ignite.microsoft.com/en-US/sessions/BRK147?source=sessions)~~ | Discover what's new in Azure Local, see a live demo, and hear from a customer modernizing operations and enabling AI in a regulated environment. | Included in Ignite pass | Yes | November 18, 2025 |
 | ~~[HybrIT - Würzburg (Germany)](https://www.manfredhelber.de/hybrit-conference-2025/)~~ | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299€ / 599 € | No | November 26-27, 2025 |
 | [MC2MC - Antwerp (Belgium)](https://connect.mc2mc.be/agenda/) | MC2MC Connect is a dynamic, full-day event for tech professionals, enthusiasts, and IT decision-makers, centered on three core Microsoft focus areas: Cloud / Hybrid, Endpoint & Security, Compliance and Identity | 137,81€ / 162,14 € | No | February 05, 2026 |
+| [Experts Live Germany 2026](https://expertslive.de/) | Community conference bringing together the German-speaking IT community around Microsoft Cloud & AI, On-Premises, Hybrid, Workplace, and Security. Includes sessions, demos, discussions with MVPs and Microsoft experts, plus optional deep-dive workshops. | €249–€499 (net, depending on ticket type) | No | March 3–4, 2026 |
 
 
 <!-- AWESOMEAZURELOCAL:END -->
