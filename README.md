@@ -388,6 +388,11 @@ A platform-focused release emphasizing security, operational visibility, and lif
   A calculator currently focused mainly on pricing, since storage is covered by S2D Calculator and CPU is a separate track; created by me and available open source at [Azure Local Calculator](https://github.com/schmittnieto/AzureLocal-Calculator).  
 - [AVD - FSLogix Profile Status (Tool)](https://www.linkedin.com/posts/drazen-nikolic-816906142_avd-microsoft-azurevirtualdesktop-ugcPost-7364022385827557376-NEle)  
   After the deprecation of FXTray, it became difficult to check the status of FSLogix profiles. With this PowerShell script, it is once again possible to verify profile status in a simple and centralized way.
+- [Odin for Azure Local (Tool)](https://azure.github.io/odinforazurelocal/)  
+  Odin, inspired by the Norse god of strategy and architecture, is an Optimal Deployment and Infrastructure Navigator for Azure Local. It provides a decision-tree interface to help select the appropriate Azure Local deployment type and instance design based on validated architecture and network configuration guidance.
+- [Azure Local LENS Workbook (Tool)](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-local-lens-workbook%e2%80%94deep-insights-at-scale-in-minutes/4490608?WT.mc_id=AZ-MVP-5001191)  
+  A community-driven Azure Workbook that delivers deep insights into the status, compliance, and operational trends of large Azure Local fleets in minutes.
+
 
 
 
