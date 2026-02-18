@@ -393,9 +393,6 @@ A platform-focused release emphasizing security, operational visibility, and lif
 - [Azure Local LENS Workbook (Tool)](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-local-lens-workbook%e2%80%94deep-insights-at-scale-in-minutes/4490608?WT.mc_id=AZ-MVP-5001191)  
   A community-driven Azure Workbook that delivers deep insights into the status, compliance, and operational trends of large Azure Local fleets in minutes.
 
-
-
-
 ### Chats & Channels
 
 - [Azure Local Slack Channel](https://aka.ms/azurelocal-slack)  
