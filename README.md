@@ -8,7 +8,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2601)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2603)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
@@ -45,41 +45,42 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2601)
+### What's new in Azure Local (version 2603)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2601)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2603)
 
-**Version:** 12.2601.1002.38  
-**Release date:** January 2026
+**Version:** 12.2603.1002.15  
+**Release date:** March 2026
 
-A platform-focused release emphasizing security, operational visibility, and lifecycle consistency across all Azure Local deployments.
+A stability-focused release with updated platform components, AKS lifecycle changes, and expanded GPU support.
 
 #### Platform and OS
 - Unified operating system across **all new and existing deployments**.
-- New baseline OS version **26100.32230**, aligned with Windows Server 2025.
+- New baseline OS version **26100.32522**, aligned with Windows Server 2025.
 - Integrated System and Premier Solution hardware ship with the OS preinstalled and validated.
-- Requires drivers compatible with OS **26100.32230** or Windows Server 2025.
+- Requires drivers compatible with OS **26100.32522** or Windows Server 2025.
 
 #### Runtime updates
-- Platform updated to **.NET 8.0.22** for both .NET Runtime and ASP.NET Core.
+- Platform updated to **.NET 8.0.25** for both .NET Runtime and ASP.NET Core.
 
-#### Availability and resilience
-- **Rack aware clustering is now Generally Available (GA)**.
-- Enables rack-based availability zones to improve resilience against rack-level failures.
+#### AKS and Kubernetes
+- Supports Kubernetes versions: **1.31.x, 1.32.x, 1.33.x**.  
+- **Kubernetes 1.30 is no longer supported**.
+- **KMS v1 deprecation upcoming**; KMS v2 now included (cluster redeployment recommended).
+- **Windows Server 2019 node pool support ends (March 2026)**.
+- Validation of AKS version required before Azure Local upgrades.
 
-#### Azure portal and operations
-- Infrastructure logical network created during deployment is now visible in the Azure portal, preventing accidental workload placement.
-- **Diagnostics log collection** can be initiated directly from the Azure portal for support and troubleshooting.
-- **VM Connect for Azure Local VMs (Preview)** allows console access to Windows and Linux VMs without network connectivity or during boot failures.
-
-#### Configuration integrity and lifecycle
-- **Drift detection framework** introduced for Azure PowerShell and Azure CLI components.
-- Validates deployed components against approved baselines and reports configuration or version drift.
-- New **Unique ID** property for data disks simplifies identification and automation.
+#### GPU support
+- **NVIDIA RTX PRO 6000 Blackwell Server Edition GPU** now supported.
+- Available for both Azure Local VMs and AKS enabled by Azure Arc.
+- Enables high-performance GPU workloads directly on Azure Local.
 
 #### Security improvements
-- **Dynamic Root of Trust for Measurement (DRTM)** enabled for deployments created before version 2504, upgrading protection against firmware-level attacks.
-- Existing deployments can now apply the **26100 (24H2) security baseline**, aligning security posture with newly deployed systems.
+- **Secure Boot 2023 certificates** now deployed automatically.
+- Improves readiness for upcoming Secure Boot changes and reduces upgrade risk.
+
+#### Reliability
+- Includes multiple reliability improvements and general bug fixes across deployment and operations.
 
 ### Azure Local
 
