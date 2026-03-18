@@ -116,6 +116,8 @@ A stability-focused release with updated platform components, AKS lifecycle chan
   This article explains Software Defined Networking (SDN) enabled by Azure Arc on Azure Local. It describes SDN management methods, guidance on when to use each approach, and outlines supported and unsupported SDN scenarios.  
 - [What's new in Azure Local for distributed locations (Tech Community)](https://techcommunity.microsoft.com/blog/azurearcblog/what%E2%80%99s-new-in-azure-local-cloud-infrastructure-for-distributed-locations-enabled/4469773)  
   Summary of Azure Ignite 2025 announcements highlighting SAN support (Preview), rack aware clustering (Preview), NVIDIA RTX PRO 6000 Blackwell Server Edition GPU support (GA), Azure Local for larger deployments (Preview), network segmentation (GA) and local identity with Azure Key Vault (Preview).
+- [Private Endpoints on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/about-private-endpoints)  
+  Overview of Azure Private Endpoints on Azure Local, including supported and unsupported scenarios, connectivity requirements, and key considerations for secure access to Azure services from on-premises environments.
 
 
 ### AVD
