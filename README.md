@@ -344,6 +344,10 @@ A stability-focused release with updated platform components, AKS lifecycle chan
   Blog by MVP [Ernie Costa](https://www.linkedin.com/in/erniecosta/) focusing on Azure Local, Storage Spaces Direct and services. 
 - [thomasmaurer.ch](https://www.thomasmaurer.ch/)  
   Blog by former Microsoft employee [Thomas Maurer](https://www.linkedin.com/in/thomasmaurer2/) (Principal Program Manager & Chief Evangelist for Azure Hybrid) covering a wide range of Azure services, including Azure Local.  
+- [gettothe.cloud](https://www.gettothe.cloud/)  
+  Blog by [Axel ter Neuzet](https://www.linkedin.com/in/aterneuzen) focused mainly on AVD, Azure Local and IaC. I highly recommend reading it.
+- [azurelocal.cloud](https://azurelocal.cloud/)  
+  New website by MVP [Kristopher Turner](https://www.linkedin.com/in/kristopherjturner) with scripts, deployments and Azure Local guidance. In my view, it is currently one of the best IaC resources in the Azure Local space.
 
 ### LinkedIn  
 
@@ -395,6 +399,8 @@ A stability-focused release with updated platform components, AKS lifecycle chan
   Odin, inspired by the Norse god of strategy and architecture, is an Optimal Deployment and Infrastructure Navigator for Azure Local. It provides a decision-tree interface to help select the appropriate Azure Local deployment type and instance design based on validated architecture and network configuration guidance.
 - [Azure Local LENS Workbook (Tool)](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-local-lens-workbook%e2%80%94deep-insights-at-scale-in-minutes/4490608?WT.mc_id=AZ-MVP-5001191)  
   A community-driven Azure Workbook that delivers deep insights into the status, compliance, and operational trends of large Azure Local fleets in minutes.
+- [GetToThe-Cloud - Website (GitHub)](https://github.com/GetToThe-Cloud/Website)  
+  Source repository for the GetToThe.Cloud website, including the scripts used across the site, such as Terraform-based examples and other deployment resources.
 
 ### Chats & Channels
 
