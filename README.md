@@ -370,6 +370,8 @@ A stability-focused release with updated platform components, AKS lifecycle chan
 
 *Channels that focus primarily on Azure Local rather than hosting only an occasional video.*
 
+- [Azure Hybrid Insider](https://youtube.com/@alexanderortha8490)  
+  YouTube channel managed by Alexander Ortha, focused on Azure Arc, Azure Local, and hybrid integrations across Azure.
 - [The Hybrid Friends](https://www.youtube.com/@thehybridfriends)  
   Practical use cases and deep dives in the Azure Local space.  
 - [Manfred Helber](https://www.youtube.com/@ManfredHelber)  
