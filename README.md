@@ -45,42 +45,59 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2603)
+### What's new in Azure Local (version 2604)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2603)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2604)
 
-**Version:** 12.2603.1002.15  
-**Release date:** March 2026
+**Version:** 12.2604.1003.209  
+**Release date:** April 2026
 
-A stability-focused release with updated platform components, AKS lifecycle changes, and expanded GPU support.
+A major release focused on disaggregated deployments, SAN, VM management, deployment speed and broader Azure portal improvements.
 
 #### Platform and OS
 - Unified operating system across **all new and existing deployments**.
-- New baseline OS version **26100.32522**, aligned with Windows Server 2025.
+- New baseline OS version **26100.32690**, aligned with Windows Server 2025.
 - Integrated System and Premier Solution hardware ship with the OS preinstalled and validated.
-- Requires drivers compatible with OS **26100.32522** or Windows Server 2025.
+- Requires drivers compatible with OS **26100.32690** or Windows Server 2025.
 
 #### Runtime updates
-- Platform updated to **.NET 8.0.25** for both .NET Runtime and ASP.NET Core.
+- Platform updated to **.NET 8.0.26** for both .NET Runtime and ASP.NET Core.
+- Also includes **.NET 10.0.6** for both .NET Runtime and ASP.NET Core.
 
 #### AKS and Kubernetes
-- Supports Kubernetes versions: **1.31.x, 1.32.x, 1.33.x**.  
+- Supports Kubernetes versions **1.31.x, 1.32.x, and 1.33.x**.
 - **Kubernetes 1.30 is no longer supported**.
-- **KMS v1 deprecation upcoming**; KMS v2 now included (cluster redeployment recommended).
-- **Windows Server 2019 node pool support ends (March 2026)**.
-- Validation of AKS version required before Azure Local upgrades.
+- **KMS v2** is included and **KMS v1 will be deprecated**, so cluster redeployment planning is recommended.
+- AKS clusters should be validated on a supported Kubernetes version before upgrading Azure Local.
 
-#### GPU support
-- **NVIDIA RTX PRO 6000 Blackwell Server Edition GPU** now supported.
-- Available for both Azure Local VMs and AKS enabled by Azure Arc.
-- Enables high-performance GPU workloads directly on Azure Local.
+#### Storage and deployment architecture
+- **Disaggregated deployments** now supported, allowing Azure Local to use **SAN-only storage**.
+- **SAN support is now Generally Available (GA)** and can be used alongside Storage Spaces Direct.
+- Enables independent scaling of compute and storage, including clusters beyond **16 nodes**.
 
-#### Security improvements
-- **Secure Boot 2023 certificates** now deployed automatically.
-- Improves readiness for upcoming Secure Boot changes and reduces upgrade risk.
+#### Identity and deployment
+- **Local identity with Key Vault is now Generally Available (GA)**.
+- **Domain join prior to deployment** is now supported.
+- **Update settings management** is now available, giving administrators more control over how updates are applied.
+
+#### Deployment and validation improvements
+- **Validation time reduced by up to 50%** during deployment and update workflows.
+- Validation can now **resume from the point of failure** within a three-hour window.
+- Deployment time is now more consistent for clusters up to **8 nodes**, with overall improvements of up to **40%**.
+
+#### Cluster and VM improvements
+- **Rack aware clustering** now supports deployments using local identity with Azure Key Vault.
+- **GPU acceleration for Azure Local VMs is now Generally Available (GA)**.
+- Supports attaching and detaching **full GPUs (DDA)** or **GPU partitions (GPU-P)** during VM creation or as a Day-2 operation.
+
+#### Azure portal experience
+- Enhanced **data disk management** with richer cluster-level disk views and the ability to attach existing disks directly from the VM view.
+- Improved **Azure Marketplace image navigation** with a full-page view for image selection.
+- **Graceful restart is now the default** for Azure Local VMs, with an option to bypass shutdown using `--skip-shutdown`.
+- **SDN management can now be enabled or disabled per network interface**, using the `--bypass-sdn-policies` flag.
 
 #### Reliability
-- Includes multiple reliability improvements and general bug fixes across deployment and operations.
+- Includes multiple reliability improvements and general bug fixes across deployment, update, and day-to-day operations.
 
 ### Azure Local
 
