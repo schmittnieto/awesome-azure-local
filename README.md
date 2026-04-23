@@ -109,6 +109,8 @@ A major release focused on disaggregated deployments, SAN, VM management, deploy
   Lists the latest features and improvements available in Azure Local.  
 - [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction)  
   First article in a series that describes how to deploy Azure Local.  
+- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2604&tabs=Dell-PowerStore)  
+  GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
 - [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/)  
   Overview of licensing options, cost model, and subscription details.  
 - [Azure Local Hardware Catalog](https://azurelocalsolutions.azure.microsoft.com/#/catalog)  
