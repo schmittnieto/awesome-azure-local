@@ -1,0 +1,5 @@
+# Patterns (regex) for URLs the link checker should skip.
+
+# LinkedIn returns HTTP 999 to automated clients, so profile and newsletter
+# links cannot be validated in CI. They are checked manually when added.
+linkedin.com

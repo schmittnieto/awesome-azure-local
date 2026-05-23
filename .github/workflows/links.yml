@@ -1,0 +1,51 @@
+name: Check Links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly, Mondays at 06:00 UTC, to catch links that rot over time
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: check-links-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Check links in README
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 8
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 30
+            --accept 200,206,429
+            "README.md"
+          # Fail the job only on pull requests, so broken links block a merge.
+          # On push, schedule and manual runs we report via an issue instead of
+          # turning the branch red every time an external link rots.
+          fail: ${{ github.event_name == 'pull_request' }}
+
+      - name: Open an issue when links are broken
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links found in README
+          content-filepath: ./lychee/out.md
+          labels: broken-links, automated
