@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout Source Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Checkout Destination Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: schmittnieto/schmittnieto.github.io
           token: ${{ secrets.GH_PAT }}
