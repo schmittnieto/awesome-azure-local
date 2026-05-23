@@ -279,9 +279,9 @@ A major release focused on disaggregated deployments, SAN, VM management, deploy
 
 #### Commvault
 
-- [Commvault - Azure Local Configuration and Documentation](https://documentation.commvault.com/11.42/essential/azure_local.html)  
+- [Commvault - Azure Local Configuration and Documentation](https://docs.commvault.com/saas/azure_local.html)
   Guide to install and configure Commvault for protecting workloads on Azure Local.  
-- [Commvault - Blueprint for Azure Local (PDF)](https://www.commvault.com/download-pdf/536787)  
+- [Commvault - Blueprint for Azure Local](https://www.commvault.com/resources/solution-brief/commvault-for-microsoft-azure-local)
   Document explaining core concepts and Commvault capabilities for backing up Azure Local infrastructure.  
 
 ### AVD Management  
@@ -357,7 +357,7 @@ A major release focused on disaggregated deployments, SAN, VM management, deploy
   Blog by MVP [Silvio Di Benedetto](https://www.linkedin.com/in/silviodibenedetto/) on Azure Local and related topics.  
 - [hciharrison.com](https://www.hciharrison.com/)  
   Blog by MVP [Lee Harrison](https://www.linkedin.com/in/lee-harrison-749b7215/) covering all things Azure Local.  
-- [kennylowe.org](https://kennylowe.org/)  
+- [kennylowe.org](https://www.kennylowe.org/)
   Blog by MVP [Kenny Lowe](https://www.linkedin.com/in/kennylowe1/) on Azure Local and infrastructure.  
 - [erniecosta.com](https://www.erniecosta.com/blog/)  
   Blog by MVP [Ernie Costa](https://www.linkedin.com/in/erniecosta/) focusing on Azure Local, Storage Spaces Direct and services. 

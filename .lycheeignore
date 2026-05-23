@@ -3,3 +3,14 @@
 # LinkedIn returns HTTP 999 to automated clients, so profile and newsletter
 # links cannot be validated in CI. They are checked manually when added.
 linkedin.com
+
+# Microsoft Azure Local Solutions is a browser SPA with hash routes. The links
+# work in browsers, but automated checks can receive 404 for the routed pages.
+azurelocalsolutions\.azure\.microsoft\.com
+
+# These sites are reachable in browsers, but currently reject or fail automated
+# checks with 403/415/TLS/HTTP2 errors.
+jakewalsh\.co\.uk/tag/azure-local
+nmehelp\.getnerdio\.com/hc/en-us/articles/
+www\.hpe\.com/psnow/doc/a50008245enw
+www\.hpe\.com/us/en/alliance/microsoft/azurelocal\.html
