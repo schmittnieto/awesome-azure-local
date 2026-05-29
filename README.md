@@ -8,7 +8,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2604)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2605)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
@@ -45,59 +45,38 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2604)
+### What's new in Azure Local (version 2605)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2604)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2605)
 
-**Version:** 12.2604.1003.209  
-**Release date:** April 2026
+**Version:** 12.2605.1003.210
+**Availability date:** May 28, 2026
+**OS build:** 26100.32860
 
-A major release focused on disaggregated deployments, SAN, VM management, deployment speed and broader Azure portal improvements.
+The May 2026 release focuses on reliability improvements, updated OS and runtime baselines, and GPU metrics for Azure Local VMs using GPU Partitioning (GPU-P).
 
 #### Platform and OS
-- Unified operating system across **all new and existing deployments**.
-- New baseline OS version **26100.32690**, aligned with Windows Server 2025.
-- Integrated System and Premier Solution hardware ship with the OS preinstalled and validated.
-- Requires drivers compatible with OS **26100.32690** or Windows Server 2025.
+- All new and existing Azure Local deployments run OS version **26100.32860**, downloadable from the Azure portal.
+- Requires drivers compatible with OS **26100.32860** or Windows Server 2025.
+- Integrated System and Premier solution hardware from the Azure Local Catalog includes the OS preinstalled.
+- Work with the OEM to obtain a compatible OS image and driver package when needed.
 
 #### Runtime updates
-- Platform updated to **.NET 8.0.26** for both .NET Runtime and ASP.NET Core.
-- Also includes **.NET 10.0.6** for both .NET Runtime and ASP.NET Core.
+- Platform updated to **.NET 8.0.27** for both .NET Runtime and ASP.NET Core.
+- Also includes **.NET 10.0.8** for both .NET Runtime and ASP.NET Core.
 
-#### AKS and Kubernetes
-- Supports Kubernetes versions **1.31.x, 1.32.x, and 1.33.x**.
-- **Kubernetes 1.30 is no longer supported**.
-- **KMS v2** is included and **KMS v1 will be deprecated**, so cluster redeployment planning is recommended.
-- AKS clusters should be validated on a supported Kubernetes version before upgrading Azure Local.
-
-#### Storage and deployment architecture
-- **Disaggregated deployments** now supported, allowing Azure Local to use **SAN-only storage**.
-- **SAN support is now Generally Available (GA)** and can be used alongside Storage Spaces Direct.
-- Enables independent scaling of compute and storage, including clusters beyond **16 nodes**.
-
-#### Identity and deployment
-- **Local identity with Key Vault is now Generally Available (GA)**.
-- **Domain join prior to deployment** is now supported.
-- **Update settings management** is now available, giving administrators more control over how updates are applied.
-
-#### Deployment and validation improvements
-- **Validation time reduced by up to 50%** during deployment and update workflows.
-- Validation can now **resume from the point of failure** within a three-hour window.
-- Deployment time is now more consistent for clusters up to **8 nodes**, with overall improvements of up to **40%**.
-
-#### Cluster and VM improvements
-- **Rack aware clustering** now supports deployments using local identity with Azure Key Vault.
-- **GPU acceleration for Azure Local VMs is now Generally Available (GA)**.
-- Supports attaching and detaching **full GPUs (DDA)** or **GPU partitions (GPU-P)** during VM creation or as a Day-2 operation.
-
-#### Azure portal experience
-- Enhanced **data disk management** with richer cluster-level disk views and the ability to attach existing disks directly from the VM view.
-- Improved **Azure Marketplace image navigation** with a full-page view for image selection.
-- **Graceful restart is now the default** for Azure Local VMs, with an option to bypass shutdown using `--skip-shutdown`.
-- **SDN management can now be enabled or disabled per network interface**, using the `--bypass-sdn-policies` flag.
+#### GPU monitoring
+- Azure Local can now monitor **GPU metrics** for GPUs configured using **GPU Partitioning (GPU-P)**.
+- See [Metrics for GPU](https://learn.microsoft.com/en-us/azure/azure-local/manage/monitor-cluster-with-metrics?view=azloc-2605#metrics-for-gpu) for details.
 
 #### Reliability
-- Includes multiple reliability improvements and general bug fixes across deployment, update, and day-to-day operations.
+- Includes reliability improvements and general bug fixes across platform operations.
+- Microsoft lists **no known issues specific to version 2605** in the current release notes.
+
+#### Fixed issues
+- Fixed an issue where Azure Local version **2601 and later** could experience unintended VM deletion when a platform component incorrectly classified VMs during routine system operations.
+- Fixed an issue where the `az stack-hci-vm stop` command could fail when using CLI version **1.14.x** against clusters running versions prior to **2604**.
+- See the [Azure Local 2605 fixed issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2605#fixed-issues) release notes for the official list.
 
 ### Azure Local
 
@@ -109,7 +88,7 @@ A major release focused on disaggregated deployments, SAN, VM management, deploy
   Lists the latest features and improvements available in Azure Local.  
 - [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction)  
   First article in a series that describes how to deploy Azure Local.  
-- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2604&tabs=Dell-PowerStore)  
+- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2605&tabs=Dell-PowerStore)
   GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
 - [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/)  
   Overview of licensing options, cost model, and subscription details.  
