@@ -8,7 +8,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2605)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2606)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
@@ -45,38 +45,33 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2605)
+### What's new in Azure Local (version 2606)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2605)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2606)
 
-**Version:** 12.2605.1003.210
-**Availability date:** May 28, 2026
-**OS build:** 26100.32860
+**Version:** 12.2606.1003.205
+**Availability date:** June 15, 2026
+**OS build:** 26100.32995
 
-The May 2026 release focuses on reliability improvements, updated OS and runtime baselines, and GPU metrics for Azure Local VMs using GPU Partitioning (GPU-P).
+The June 2026 release is a maintenance-focused update for Azure Local. It refreshes the OS baseline, updates .NET runtime versions and includes reliability improvements across platform operations.
 
 #### Platform and OS
-- All new and existing Azure Local deployments run OS version **26100.32860**, downloadable from the Azure portal.
-- Requires drivers compatible with OS **26100.32860** or Windows Server 2025.
+- New and existing Azure Local deployments use OS version **26100.32995**, available through the Azure portal.
+- Requires drivers compatible with OS **26100.32995** or Windows Server 2025.
 - Integrated System and Premier solution hardware from the Azure Local Catalog includes the OS preinstalled.
-- Work with the OEM to obtain a compatible OS image and driver package when needed.
+- Work with the OEM to obtain a matching OS image and driver package when needed.
 
 #### Runtime updates
-- Platform updated to **.NET 8.0.27** for both .NET Runtime and ASP.NET Core.
-- Also includes **.NET 10.0.8** for both .NET Runtime and ASP.NET Core.
-
-#### GPU monitoring
-- Azure Local can now monitor **GPU metrics** for GPUs configured using **GPU Partitioning (GPU-P)**.
-- See [Metrics for GPU](https://learn.microsoft.com/en-us/azure/azure-local/manage/monitor-cluster-with-metrics?view=azloc-2605#metrics-for-gpu) for details.
+- Platform updated to **.NET 8.0.28** for both .NET Runtime and ASP.NET Core.
+- Also includes **.NET 10.0.9** for both .NET Runtime and ASP.NET Core.
 
 #### Reliability
 - Includes reliability improvements and general bug fixes across platform operations.
-- Microsoft lists **no known issues specific to version 2605** in the current release notes.
+- Microsoft lists **no known issues specific to version 2606** in the current release notes.
 
 #### Fixed issues
-- Fixed an issue where Azure Local version **2601 and later** could experience unintended VM deletion when a platform component incorrectly classified VMs during routine system operations.
-- Fixed an issue where the `az stack-hci-vm stop` command could fail when using CLI version **1.14.x** against clusters running versions prior to **2604**.
-- See the [Azure Local 2605 fixed issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2605#fixed-issues) release notes for the official list.
+- Microsoft lists **no fixed issues specific to version 2606** in the current release notes.
+- See the [Azure Local 2606 fixed and known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2606#known-issues-for-version-2606) release notes for the official list.
 
 ### Azure Local
 
@@ -84,11 +79,13 @@ The May 2026 release focuses on reliability improvements, updated OS and runtime
   Official product page for Azure Local on the Azure website.  
 - [What is Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview)  
   Introduction to Azure Local (formerly Azure Stack HCI) and its core components.  
+- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2606)  
+  Overview of Azure Local deployments that use SAN storage connected to Azure, with support for single-machine and clustered environments.  
 - [What is new in Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/whats-new)  
   Lists the latest features and improvements available in Azure Local.  
 - [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction)  
   First article in a series that describes how to deploy Azure Local.  
-- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2605&tabs=Dell-PowerStore)
+- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2606)
   GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
 - [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/)  
   Overview of licensing options, cost model, and subscription details.  
