@@ -396,8 +396,8 @@ The June 2026 release is a maintenance-focused update for Azure Local. It refres
   Odin, inspired by the Norse god of strategy and architecture, is an Optimal Deployment and Infrastructure Navigator for Azure Local. It provides a decision-tree interface to help select the appropriate Azure Local deployment type and instance design based on validated architecture and network configuration guidance.
 - [Azure Local LENS Workbook (Tool)](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-local-lens-workbook%e2%80%94deep-insights-at-scale-in-minutes/4490608?WT.mc_id=AZ-MVP-5001191)  
   A community-driven Azure Workbook that delivers deep insights into the status, compliance, and operational trends of large Azure Local fleets in minutes.
-- [GetToThe-Cloud - Website (GitHub)](https://github.com/GetToThe-Cloud/Website)  
-  Source repository for the GetToThe.Cloud website, including the scripts used across the site, such as Terraform-based examples and other deployment resources.
+- [HVTools (Tool)](https://github.com/michaelmsonne/HVTools)  
+  Hyper-V management tool created by MVP [Michael Morten Sonne](https://www.linkedin.com/in/michaelmsonne/), providing a GUI-focused approach to simplify virtual machine management and day-to-day Hyper-V operations.
 
 ### Chats & Channels
 
