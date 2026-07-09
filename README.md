@@ -236,6 +236,12 @@ The June 2026 release is a maintenance-focused update for Azure Local. It refres
 - [Fujitsu - Azure Local Infographic](https://docs.ts.fujitsu.com/dl.aspx?id=6c594a34-97fa-46b4-a0e8-1a78887524e9)  
   Infographic that summarizes the Azure Local solution from Fujitsu.
 
+### Everpure
+
+- [Everpure - Azure Local Landing Page](https://support.purestorage.com/bundle/m_microsoft_platform_guide/page/Solutions/Microsoft_Platform_Guide/topics/concept/c_azure_local.html)  
+  Everpure FlashArray landing page for Azure Local with product information and references.
+- [Everpure and Azure Local Supportability (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/san-requirements?view=azloc-2605&tabs=Everpure-support)
+  
 ---
 
 ## Third Party  
