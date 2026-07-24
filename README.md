@@ -425,8 +425,8 @@ The July 2026 release expands Azure Local VM capabilities and storage connectivi
   Odin, inspired by the Norse god of strategy and architecture, is an Optimal Deployment and Infrastructure Navigator for Azure Local. It provides a decision-tree interface to help select the appropriate Azure Local deployment type and instance design based on validated architecture and network configuration guidance.
 - [Azure Local LENS Workbook (Tool)](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-local-lens-workbook%e2%80%94deep-insights-at-scale-in-minutes/4490608?WT.mc_id=AZ-MVP-5001191)  
   A community-driven Azure Workbook that delivers deep insights into the status, compliance, and operational trends of large Azure Local fleets in minutes.
-- [GetToThe-Cloud - Website (GitHub)](https://github.com/GetToThe-Cloud/Website)  
-  Source repository for the GetToThe.Cloud website, including the scripts used across the site, such as Terraform-based examples and other deployment resources.
+- [HVTools (Tool)](https://github.com/michaelmsonne/HVTools)  
+  Hyper-V management tool created by MVP [Michael Morten Sonne](https://www.linkedin.com/in/michaelmsonne/), providing a GUI-focused approach to simplify virtual machine management and day-to-day Hyper-V operations.
 
 ### Chats & Channels
 
@@ -449,7 +449,8 @@ The July 2026 release expands Azure Local VM capabilities and storage connectivi
 | ~~[HybrIT - Würzburg (Germany)](https://www.manfredhelber.de/hybrit-conference-2025/)~~ | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299€ / 599 € | No | November 26-27, 2025 |
 | ~~[MC2MC - Antwerp (Belgium)](https://connect.mc2mc.be/agenda/)~~ | MC2MC Connect is a dynamic, full-day event for tech professionals, enthusiasts, and IT decision-makers, centered on three core Microsoft focus areas: Cloud / Hybrid, Endpoint & Security, Compliance and Identity | 137,81€ / 162,14 € | No | February 05, 2026 |
 | ~~[Experts Live Germany 2026 - Leipzig (Germany)](https://expertslive.de/)~~ | Community conference bringing together the German-speaking IT community around Microsoft Cloud & AI, On-Premises, Hybrid, Workplace and Security. Includes sessions, demos, discussions with MVPs and Microsoft experts, plus optional deep-dive workshops. | €249–€499 (net, depending on ticket type) | No | March 3–4, 2026 |
-| [Windows Server Summit 2026](https://techcommunity.microsoft.com/event/windowsserver-events/windows-server-summit-2026/4501032) | Free virtual event covering Windows Server 2025 in practice, networking updates, server management roadmap and tooling, hybrid scenarios with Azure Arc, and an early look at Windows Server vNext. | Free | Yes | May 11–13, 2026 |
+| ~~[Windows Server Summit 2026](https://techcommunity.microsoft.com/event/windowsserver-events/windows-server-summit-2026/4501032)~~ | Free virtual event covering Windows Server 2025 in practice, networking updates, server management roadmap and tooling, hybrid scenarios with Azure Arc, and an early look at Windows Server vNext. | Free | Yes | May 11–13, 2026 |
+| [Hybrid Platform Conference - Amsterdam (Netherlands)](https://www.hybridplatformcon.com/physical.html) | One-day in-person event focused on Azure Local, Windows Server, hybrid cloud and AI workloads, bringing together Microsoft engineers, MVPs, partners and practitioners. | From €99 early bird | No | September 28, 2026 |
 | [CDC Germany 2026 - Hanau (Germany)](https://www.cdc-germany.de/) | Two-day Cloud & Datacenter Conference focused on real-world Microsoft infrastructure topics such as Azure Local, Windows Server, Hyper-V and Hybrid Cloud. | €499–€999 (net, depending on ticket type) | No | September 30 – October 1, 2026 |
 
 
