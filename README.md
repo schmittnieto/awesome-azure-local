@@ -8,7 +8,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2606)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2607)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
@@ -45,33 +45,62 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2606)
+### What's new in Azure Local (version 2607)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2606)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2607)
 
-**Version:** 12.2606.1003.205
-**Availability date:** June 15, 2026
-**OS build:** 26100.32995
+**Version:** 12.2607.1003.69
+**Availability date:** July 22, 2026
+**OS build:** 26100.33158
 
-The June 2026 release is a maintenance-focused update for Azure Local. It refreshes the OS baseline, updates .NET runtime versions and includes reliability improvements across platform operations.
+The July 2026 release expands Azure Local VM capabilities and storage connectivity options. SAN integration over iSCSI reaches general availability for both hyperconverged and disaggregated deployments. Confidential VM support enters public preview, backed by AMD SEV-SNP technology. The security baseline now requires a 14-character minimum for local account passwords.
 
 #### Platform and OS
-- New and existing Azure Local deployments use OS version **26100.32995**, available through the Azure portal.
-- Requires drivers compatible with OS **26100.32995** or Windows Server 2025.
+- All new and existing Azure Local deployments run OS version **26100.33158**, available through the Azure portal.
+- Requires drivers compatible with OS **26100.33158** or Windows Server 2025.
 - Integrated System and Premier solution hardware from the Azure Local Catalog includes the OS preinstalled.
 - Work with the OEM to obtain a matching OS image and driver package when needed.
 
 #### Runtime updates
-- Platform updated to **.NET 8.0.28** for both .NET Runtime and ASP.NET Core.
-- Also includes **.NET 10.0.9** for both .NET Runtime and ASP.NET Core.
+- Platform updated to **.NET 8.0.29** for both .NET Runtime and ASP.NET Core.
+- Includes **.NET 10.0.10** for both .NET Runtime and ASP.NET Core.
+
+#### Azure Local VMs
+- DNS server and gateway appliances for workloads can now run as Azure Local VMs (GA). This lets you host AD DS and DNS services or NVA gateway appliances directly on Azure Local. Not supported on clusters using SDN enabled by Azure Arc.
+- Storage path properties now display the full file system location, including the GUID folder, for existing and new storage paths.
+
+#### Storage and disaggregated deployments
+- SAN integration over iSCSI reaches general availability for hyperconverged deployments, alongside existing Fibre Channel support.
+- SAN integration over iSCSI also reaches general availability for disaggregated deployments.
+- Machine validation now fails disaggregated deployments that use external SANs from unsupported vendors, and the deployment wizard blocks selection of unsupported vendor LUNs.
+- Local availability zones for disaggregated deployments can now be configured through PowerShell, with Azure Local VMs created within those zones from the Azure portal.
+
+#### Security
+- Confidential VM support enters public preview, extending workload attestation and memory-encryption protections to VMs.
+- The security baseline now enforces a 14-character minimum password length for local accounts, aligning with the Azure Security Baseline.
+
+#### Update management
+- Update packages can now be downloaded directly from the Azure portal, improving support for limited-connectivity and offline scenarios.
+- Newer versions of your currently installed release can now appear as available updates. Review the changes before applying.
+
+#### Azure Migrate
+- New built-in RBAC roles provide purpose-built access for Azure Local migration tasks.
+- Terraform support for replication and migration is now in preview.
+- Azure Migrate updates release on a separate cadence and don't require an Azure Local version upgrade.
 
 #### Reliability
 - Includes reliability improvements and general bug fixes across platform operations.
-- Microsoft lists **no known issues specific to version 2606** in the current release notes.
+
+#### Known issues
+- Update: the Azure Key Vault extension can remain in **Failed** state after updating to version 2607, with no workaround in this release.
+- Azure Local VMs: Trusted launch VMs (TVMs) created in earlier releases fail to start after a cluster upgrade to 2607, with no workaround. Clusters with TVMs should stay on their current version, and any cluster that already upgraded should keep existing TVMs stopped.
 
 #### Fixed issues
-- Microsoft lists **no fixed issues specific to version 2606** in the current release notes.
-- See the [Azure Local 2606 fixed and known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2606#known-issues-for-version-2606) release notes for the official list.
+- Fixed an issue where deleting a VM failed with an invalid IP address error, leaving the VM and its network interface stuck.
+- Fixed an issue where VM placement settings were silently cleared during updates performed with older API or tool versions.
+- Fixed an issue where DNS servers configured on logical networks stopped appearing in the Azure portal and CLI after updating from 2603 or later.
+- Fixed an issue where the monitoring component crashed repeatedly in environments with 2,000 or more VMs.
+- See the [Azure Local 2607 fixed and known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2607#known-issues-for-version-2607) release notes for the official list.
 
 ### Azure Local
 
@@ -79,13 +108,13 @@ The June 2026 release is a maintenance-focused update for Azure Local. It refres
   Official product page for Azure Local on the Azure website.  
 - [What is Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview)  
   Introduction to Azure Local (formerly Azure Stack HCI) and its core components.  
-- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2606)  
+- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2607)  
   Overview of Azure Local deployments that use SAN storage connected to Azure, with support for single-machine and clustered environments.  
 - [What is new in Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/whats-new)  
   Lists the latest features and improvements available in Azure Local.  
 - [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction)  
   First article in a series that describes how to deploy Azure Local.  
-- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2606)
+- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2607)
   GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
 - [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/)  
   Overview of licensing options, cost model, and subscription details.  
