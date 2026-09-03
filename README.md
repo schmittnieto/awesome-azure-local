@@ -47,7 +47,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 
 ### What's new in Azure Local (version 2608)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2608)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2608&wt.mc_id=MVP_579217)
 
 **Version:** 12.2608.1003.8
 **Availability date:** August 18, 2026
@@ -89,21 +89,21 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
 
 #### Fixed issues
 - Microsoft lists **no fixed issues specific to version 2608** in the current release notes.
-- See the [Azure Local 2608 known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2608#known-issues-for-version-2608) release notes for the official list.
+- See the [Azure Local 2608 known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2608&wt.mc_id=MVP_579217#known-issues-for-version-2608) release notes for the official list.
 
 ### Azure Local
 
 - [Azure Local Product Page](https://azure.com/hci)  
   Official product page for Azure Local on the Azure website.  
-- [What is Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview)  
+- [What is Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview?wt.mc_id=MVP_579217)  
   Introduction to Azure Local (formerly Azure Stack HCI) and its core components.  
-- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2608)  
+- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2608&wt.mc_id=MVP_579217)  
   Overview of Azure Local deployments that use SAN storage connected to Azure, with support for single-machine and clustered environments.  
-- [What is new in Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/whats-new)  
+- [What is new in Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?wt.mc_id=MVP_579217)  
   Lists the latest features and improvements available in Azure Local.  
-- [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction)  
+- [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction?wt.mc_id=MVP_579217)  
   First article in a series that describes how to deploy Azure Local.  
-- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2608)
+- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2608&wt.mc_id=MVP_579217)
   GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
 - [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/)  
   Overview of licensing options, cost model, and subscription details.  
@@ -111,59 +111,59 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
   Certified hardware from Microsoft partners.  
 - [Azure Local Sizer](https://azurelocalsolutions.azure.microsoft.com/#/sizer)  
   Tool that estimates hardware requirements based on selected parameters.  
-- [Azure Hybrid Benefit on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/windows-server/get-started/azure-hybrid-benefit?tabs=azure-local#getting-azure-hybrid-benefit)  
+- [Azure Hybrid Benefit on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/windows-server/get-started/azure-hybrid-benefit?tabs=azure-local&wt.mc_id=MVP_579217#getting-azure-hybrid-benefit)  
   Link describing the contractual requirements for using Azure Hybrid Benefit with Azure Local. 
 - [Azure Local Solutions Category](https://azurelocalsolutions.azure.microsoft.com/#/Learn)  
   Overview of Azure Local solution types, outlining the differences between Validated Systems, Integrated Systems, and Premier solution.
-- [Azure Local Security Book (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/security-book/overview)  
+- [Azure Local Security Book (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/security-book/overview?wt.mc_id=MVP_579217)  
   The Azure Local security book discusses in detail the built-in security layers found in Azure Local, from core to cloud.
-- [Optimize Azure Local using insights from a Well-Architected Review Assessment](https://techcommunity.microsoft.com/blog/AzureArchitectureBlog/optimize-azure-local-using-insights-from-a-well-architected-review-assessment/4458433)  
+- [Optimize Azure Local using insights from a Well-Architected Review Assessment](https://techcommunity.microsoft.com/blog/AzureArchitectureBlog/optimize-azure-local-using-insights-from-a-well-architected-review-assessment/4458433?wt.mc_id=MVP_579217)  
   Guidance on evaluating Azure Local environments with the Well-Architected Framework assessment to identify risks, measure maturity, and improve architecture quality.
-- [Azure Local Baseline Architecture](https://learn.microsoft.com/en-us/azure/architecture/hybrid/azure-local-baseline)  
+- [Azure Local Baseline Architecture](https://learn.microsoft.com/en-us/azure/architecture/hybrid/azure-local-baseline?wt.mc_id=MVP_579217)  
   Baseline reference architecture providing workload-agnostic guidance for configuring Azure Local 2311 and later, ensuring a reliable platform for highly available virtualized and containerized workloads.  
-- [Architecture Best Practices for Azure Local](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-local)  
+- [Architecture Best Practices for Azure Local](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-local?wt.mc_id=MVP_579217)  
   Guidance aligned with the Azure Well-Architected Framework that outlines architectural recommendations for Azure Local and Azure Arc, supporting hybrid and edge deployments across validated hardware.  
-- [Rack Aware Cluster (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview)  
+- [Rack Aware Cluster (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview?wt.mc_id=MVP_579217)  
   This article provides an overview of the Azure Local rack aware clustering feature, including its benefits, use cases, supported configurations, and deployment requirements. Applies only to new deployments of Azure Local.  
-- [SDN enabled by Arc on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/sdn-overview)  
+- [SDN enabled by Arc on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/sdn-overview?wt.mc_id=MVP_579217)  
   This article explains Software Defined Networking (SDN) enabled by Azure Arc on Azure Local. It describes SDN management methods, guidance on when to use each approach, and outlines supported and unsupported SDN scenarios.  
-- [What's new in Azure Local for distributed locations (Tech Community)](https://techcommunity.microsoft.com/blog/azurearcblog/what%E2%80%99s-new-in-azure-local-cloud-infrastructure-for-distributed-locations-enabled/4469773)  
+- [What's new in Azure Local for distributed locations (Tech Community)](https://techcommunity.microsoft.com/blog/azurearcblog/what%E2%80%99s-new-in-azure-local-cloud-infrastructure-for-distributed-locations-enabled/4469773?wt.mc_id=MVP_579217)  
   Summary of Azure Ignite 2025 announcements highlighting SAN support (Preview), rack aware clustering (Preview), NVIDIA RTX PRO 6000 Blackwell Server Edition GPU support (GA), Azure Local for larger deployments (Preview), network segmentation (GA) and local identity with Azure Key Vault (Preview).
-- [Private Endpoints on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/about-private-endpoints)  
+- [Private Endpoints on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/about-private-endpoints?wt.mc_id=MVP_579217)  
   Overview of Azure Private Endpoints on Azure Local, including supported and unsupported scenarios, connectivity requirements, and key considerations for secure access to Azure services from on-premises environments.
 
 
 ### AVD
 
-- [Azure Virtual Desktop documentation (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/virtual-desktop/)  
+- [Azure Virtual Desktop documentation (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/virtual-desktop/?wt.mc_id=MVP_579217)  
   Complete documentation for deploying and managing Azure Virtual Desktop.  
-- [Deploying AVD on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-virtual-desktop)  
+- [Deploying AVD on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-virtual-desktop?wt.mc_id=MVP_579217)  
   Step-by-step guide for running Azure Virtual Desktop in an Azure Local environment.  
 - [AVD on Azure Local pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-desktop/)  
   To view pricing for Azure Virtual Desktop on Azure Local, open the "Pricing overview tab" (the rate is currently "*$0.01 per virtual core per hour*").  
 
 ### AKS
 
-- [Architecture overview for AKS on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/cluster-architecture)  
+- [Architecture overview for AKS on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/cluster-architecture?wt.mc_id=MVP_579217)  
   Architecture overview for running AKS clusters on Azure Local.  
-- [AKS Deployment on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/aks-create-clusters-portal)  
+- [AKS Deployment on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/aks-create-clusters-portal?wt.mc_id=MVP_579217)  
   How to create a Kubernetes cluster in the Azure portal; clusters are Azure Arc-connected by default.  
-- [SQL Managed Instance enabled by Azure Arc (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-arc/data/managed-instance-overview)  
+- [SQL Managed Instance enabled by Azure Arc (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-arc/data/managed-instance-overview?wt.mc_id=MVP_579217)  
   Azure SQL Managed Instance that runs on your infrastructure of choice through Arc Data Services inside an AKS cluster.  
-- [KAITO - Kubernetes AI toolchain operator (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/deploy-ai-model?tabs=portal)  
+- [KAITO - Kubernetes AI toolchain operator (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/aks/aksarc/deploy-ai-model?tabs=portal&wt.mc_id=MVP_579217)  
   This article describes how to deploy an AI model on AKS enabled by Azure Arc with the Kubernetes AI toolchain operator (KAITO). 
-- [Azure Kubernetes Service (AKS) Baseline Architecture for AKS on Azure Local](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/aks-baseline)  
+- [Azure Kubernetes Service (AKS) Baseline Architecture for AKS on Azure Local](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/aks-baseline?wt.mc_id=MVP_579217)  
   Scenario describing how to design and implement a baseline architecture for Azure Kubernetes Service (AKS) running on Azure Local.  
-- [Deploy and operate apps with AKS enabled by Azure Arc on Azure Local](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/aks-hybrid-azure-local)  
+- [Deploy and operate apps with AKS enabled by Azure Arc on Azure Local](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/aks-hybrid-azure-local?wt.mc_id=MVP_579217)  
   Recommendations for building an app deployment pipeline for containerized workloads using AKS enabled by Azure Arc on Azure Local, with guidance for GitOps-based operations.
-- [AKS on Azure Local scale requirements](https://learn.microsoft.com/en-us/azure/aks/aksarc/scale-requirements)  
+- [AKS on Azure Local scale requirements](https://learn.microsoft.com/en-us/azure/aks/aksarc/scale-requirements?wt.mc_id=MVP_579217)  
   This article describes the minimum and maximum supported scale limits for AKS on Azure Local clusters and node pools.
 
 ### Backup and Disaster Recovery
 
-- [Back up Azure Local virtual machines with Azure Backup Server (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/backup/back-up-azure-stack-hyperconverged-infrastructure-virtual-machines)  
+- [Back up Azure Local virtual machines with Azure Backup Server (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/backup/back-up-azure-stack-hyperconverged-infrastructure-virtual-machines?wt.mc_id=MVP_579217)  
   How to back up virtual machines on Azure Local by using Microsoft Azure Backup Server.  
-- [Azure Site Recovery on Azure Local (preview) (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/manage/azure-site-recovery)  
+- [Azure Site Recovery on Azure Local (preview) (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/manage/azure-site-recovery?wt.mc_id=MVP_579217)  
   Guide to protect Windows and Linux workloads on Azure Local during a disaster.  
 
 ### GitHub Repositories
@@ -402,7 +402,7 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
   Azure Local repository with findings on automating installations of HCI, AKS, and AVD.  
 - [Azure Local Sizing Guides (GitHub)](https://github.com/jonathan-vella/azure-local-sizing-guides)  
   Azure Local Sizing Guides provides comprehensive documentation, best practices, and tools for deploying and managing Azure services, such as AKS, AVD, and Arc-enabled SQL Managed Instance, on Azure Local. This repository is maintained by [Jonathan Vella](https://www.linkedin.com/in/jonathanvella/), Senior Cloud Solution Architect at Microsoft.
-- [VMWare to Hyper-V VM Conversion tool in Windows Admin Center (Tool)](https://techcommunity.microsoft.com/blog/windowsservernewsandbestpractices/introducing-the-vm-conversion-tool-in-windows-admin-center-%E2%80%93-public-preview/4446604)  
+- [VMWare to Hyper-V VM Conversion tool in Windows Admin Center (Tool)](https://techcommunity.microsoft.com/blog/windowsservernewsandbestpractices/introducing-the-vm-conversion-tool-in-windows-admin-center-%E2%80%93-public-preview/4446604?wt.mc_id=MVP_579217)  
   This agentless, cost-free tool streamlines the conversion of virtual machines from VMware to Windows Server with Hyper-V.
 - [S2D Capacity Calculator (Tool)](https://s2d-calculator.com/)  
   Use this Storage Spaces Direct Calculator to estimate storage capacity, resiliency, and hardware requirements for your Storage Spaces Direct (S2D) deployment.  
@@ -423,7 +423,7 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
   Slack channel (the real Community) managed by Darryl van der Peijl that provides community support for all Azure Local questions.  
 
 ### Trainings
-- [Azure Local Accreditation 2025](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/)  
+- [Azure Local Accreditation 2025](https://learn.microsoft.com/en-us/training/paths/azure-local-accreditation-2025/?wt.mc_id=MVP_579217)  
   Part of the official Microsoft Learn documentation, this training path helps you get in touch with Azure Local and its core capabilities.
 - [Azure Local Training](https://360.articulate.com/review/content/6c4554d6-8ccc-4b9b-bc6b-328c7429efce/review)   
   Training module covering how to deploy and register Azure Local using OEM licenses, among other key topics.  
@@ -438,7 +438,7 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
 | ~~[HybrIT - Würzburg (Germany)](https://www.manfredhelber.de/hybrit-conference-2025/)~~ | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299€ / 599 € | No | November 26-27, 2025 |
 | ~~[MC2MC - Antwerp (Belgium)](https://connect.mc2mc.be/agenda/)~~ | MC2MC Connect is a dynamic, full-day event for tech professionals, enthusiasts, and IT decision-makers, centered on three core Microsoft focus areas: Cloud / Hybrid, Endpoint & Security, Compliance and Identity | 137,81€ / 162,14 € | No | February 05, 2026 |
 | ~~[Experts Live Germany 2026 - Leipzig (Germany)](https://expertslive.de/)~~ | Community conference bringing together the German-speaking IT community around Microsoft Cloud & AI, On-Premises, Hybrid, Workplace and Security. Includes sessions, demos, discussions with MVPs and Microsoft experts, plus optional deep-dive workshops. | €249–€499 (net, depending on ticket type) | No | March 3–4, 2026 |
-| ~~[Windows Server Summit 2026](https://techcommunity.microsoft.com/event/windowsserver-events/windows-server-summit-2026/4501032)~~ | Free virtual event covering Windows Server 2025 in practice, networking updates, server management roadmap and tooling, hybrid scenarios with Azure Arc, and an early look at Windows Server vNext. | Free | Yes | May 11–13, 2026 |
+| ~~[Windows Server Summit 2026](https://techcommunity.microsoft.com/event/windowsserver-events/windows-server-summit-2026/4501032?wt.mc_id=MVP_579217)~~ | Free virtual event covering Windows Server 2025 in practice, networking updates, server management roadmap and tooling, hybrid scenarios with Azure Arc, and an early look at Windows Server vNext. | Free | Yes | May 11–13, 2026 |
 | [Hybrid Platform Conference - Amsterdam (Netherlands)](https://www.hybridplatformcon.com/physical.html) | One-day in-person event focused on Azure Local, Windows Server, hybrid cloud and AI workloads, bringing together Microsoft engineers, MVPs, partners and practitioners. | From €99 early bird | No | September 28, 2026 |
 | [CDC Germany 2026 - Hanau (Germany)](https://www.cdc-germany.de/) | Two-day Cloud & Datacenter Conference focused on real-world Microsoft infrastructure topics such as Azure Local, Windows Server, Hyper-V and Hybrid Cloud. | €499–€999 (net, depending on ticket type) | No | September 30 – October 1, 2026 |
 
