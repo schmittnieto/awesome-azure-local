@@ -105,7 +105,7 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
   First article in a series that describes how to deploy Azure Local.  
 - [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2608&wt.mc_id=MVP_579217)
   GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
-- [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/)  
+- [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/?wt.mc_id=MVP_579217)  
   Overview of licensing options, cost model, and subscription details.  
 - [Azure Local Hardware Catalog](https://azurelocalsolutions.azure.microsoft.com/#/catalog)  
   Certified hardware from Microsoft partners.  
@@ -139,7 +139,7 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
   Complete documentation for deploying and managing Azure Virtual Desktop.  
 - [Deploying AVD on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-virtual-desktop?wt.mc_id=MVP_579217)  
   Step-by-step guide for running Azure Virtual Desktop in an Azure Local environment.  
-- [AVD on Azure Local pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-desktop/)  
+- [AVD on Azure Local pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-desktop/?wt.mc_id=MVP_579217)  
   To view pricing for Azure Virtual Desktop on Azure Local, open the "Pricing overview tab" (the rate is currently "*$0.01 per virtual core per hour*").  
 
 ### AKS
@@ -412,7 +412,7 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
   After the deprecation of FXTray, it became difficult to check the status of FSLogix profiles. With this PowerShell script, it is once again possible to verify profile status in a simple and centralized way.
 - [Odin for Azure Local (Tool)](https://azure.github.io/odinforazurelocal/)  
   Odin, inspired by the Norse god of strategy and architecture, is an Optimal Deployment and Infrastructure Navigator for Azure Local. It provides a decision-tree interface to help select the appropriate Azure Local deployment type and instance design based on validated architecture and network configuration guidance.
-- [Azure Local LENS Workbook (Tool)](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-local-lens-workbook%e2%80%94deep-insights-at-scale-in-minutes/4490608?WT.mc_id=AZ-MVP-5001191)  
+- [Azure Local LENS Workbook (Tool)](https://techcommunity.microsoft.com/blog/azurearchitectureblog/azure-local-lens-workbook%e2%80%94deep-insights-at-scale-in-minutes/4490608?WT.mc_id=MVP_579217)  
   A community-driven Azure Workbook that delivers deep insights into the status, compliance, and operational trends of large Azure Local fleets in minutes.
 - [HVTools (Tool)](https://github.com/michaelmsonne/HVTools)  
   Hyper-V management tool created by MVP [Michael Morten Sonne](https://www.linkedin.com/in/michaelmsonne/), providing a GUI-focused approach to simplify virtual machine management and day-to-day Hyper-V operations.
