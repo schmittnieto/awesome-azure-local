@@ -8,7 +8,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2608)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2609)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
@@ -45,38 +45,30 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2608)
+### What's new in Azure Local (version 2609)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2608&wt.mc_id=MVP_579217)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2609&wt.mc_id=MVP_579217)
 
-**Version:** 12.2608.1003.8
-**Availability date:** August 18, 2026
-**OS build:** 26100.33296
+**Version:** 12.2609.1003.7
+**Availability date:** September 11, 2026
+**OS build:** 26100.33438
 
-The August 2026 release focuses on VM lifecycle controls and cross-site management. Azure Local VMs gain graceful shutdown options, and a preview of Azure Arc Site Manager centralizes VM and Kubernetes cluster visibility across sites. Cluster nodes can now be added directly from the Azure portal, and GPU resources can be managed from Azure through a new preview experience.
+The September 2026 release focuses on documentation and platform housekeeping rather than new capabilities. The Azure Local docs move to a scenario-based structure with a new Find your deployment type entry point, and PowerShell moves to version 7.6.5 built on .NET 10.
 
 #### Platform and OS
-- All new and existing Azure Local deployments run OS version **26100.33296**, available through the Azure portal.
-- Requires drivers compatible with OS **26100.33296** or Windows Server 2025.
+- All new and existing Azure Local deployments run OS version **26100.33438**, available through the Azure portal.
+- Requires drivers compatible with OS **26100.33438** or Windows Server 2025.
 - Integrated System and Premier solution hardware from the Azure Local Catalog includes the OS preinstalled.
 - Work with the OEM to obtain a matching OS image and driver package when needed.
 
 #### Runtime updates
-- Platform updated to **.NET 8.0.30** for both .NET Runtime and ASP.NET Core.
-- Includes **.NET 10.0.11** for both .NET Runtime and ASP.NET Core.
+- Platform updated to **.NET 8.0.31** for both .NET Runtime and ASP.NET Core.
+- Includes **.NET 10.0.12** for both .NET Runtime and ASP.NET Core.
+- PowerShell moves to version **7.6.5**, built on .NET 10.
 
-#### Azure Local VMs
-- The Azure portal now offers **Shut down (recommended)** and **Turn off** options for VMs. Shut down powers down the guest OS gracefully before turning off the VM, while Turn off powers off the VM immediately. Requires Azure Local version 2604 or later.
-- Azure Arc Site Manager (preview) centralizes viewing and managing Azure Local VMs across sites, with Kubernetes cluster support also available.
-- Nodes can now be added to an existing Azure Local cluster directly from the Azure portal (preview), through a new guided scale-out experience.
-
-#### Update management
-- A new prepare updates workflow lets you stage an update now and install it at a later time.
-- Feature updates add a **Pending OEM Validation** state, shown while an update awaits OEM validation before it can proceed.
-
-#### GPU management
-- GPU Management from Azure (preview) lets you view GPU inventory and configure partitions directly from Azure.
-- The same preview supports assigning GPUs to workloads and managing their lifecycle centrally.
+#### Documentation updates
+- The Azure Local documentation moves to a scenario-based structure with improved navigation and a new [Find your deployment type](https://learn.microsoft.com/en-us/azure/azure-local/plan/find-your-deployment-type?wt.mc_id=MVP_579217) entry point.
+- New documentation covers planning and deploying a private path network, including [What is the private path network for Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/concepts/private-path-network-overview?wt.mc_id=MVP_579217) and [Register Azure Local with Azure Arc gateway and private path](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-with-azure-arc-gateway-private-path?wt.mc_id=MVP_579217).
 
 #### Azure Migrate
 - Azure Migrate updates release on a separate cadence and don't require an Azure Local version upgrade.
@@ -85,11 +77,12 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
 - Includes reliability improvements and general bug fixes across platform operations.
 
 #### Known issues
-- Microsoft lists **no known issues specific to version 2608** in the current release notes.
+- Microsoft lists **no known issues specific to version 2609** in the current release notes.
 
 #### Fixed issues
-- Microsoft lists **no fixed issues specific to version 2608** in the current release notes.
-- See the [Azure Local 2608 known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2608&wt.mc_id=MVP_579217#known-issues-for-version-2608) release notes for the official list.
+- Fixed an issue where `az stack-hci-vm stop` failed on clusters earlier than version 2604 with a "Cannot do StopGraceful power operation on a Running VM" error.
+- Fixed an issue where some clusters were billed for Azure Machine Configuration, a capability that should be free for Azure Local customers.
+- See the [Azure Local 2609 known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2609&wt.mc_id=MVP_579217#known-issues-for-version-2609) release notes for the official list.
 
 ### Azure Local
 
@@ -97,13 +90,13 @@ The August 2026 release focuses on VM lifecycle controls and cross-site manageme
   Official product page for Azure Local on the Azure website.  
 - [What is Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview?wt.mc_id=MVP_579217)  
   Introduction to Azure Local (formerly Azure Stack HCI) and its core components.  
-- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2608&wt.mc_id=MVP_579217)  
+- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2609&wt.mc_id=MVP_579217)  
   Overview of Azure Local deployments that use SAN storage connected to Azure, with support for single-machine and clustered environments.  
 - [What is new in Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?wt.mc_id=MVP_579217)  
   Lists the latest features and improvements available in Azure Local.  
 - [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction?wt.mc_id=MVP_579217)  
   First article in a series that describes how to deploy Azure Local.  
-- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2608&wt.mc_id=MVP_579217)
+- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2609&wt.mc_id=MVP_579217)
   GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
 - [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/?wt.mc_id=MVP_579217)  
   Overview of licensing options, cost model, and subscription details.  
