@@ -132,6 +132,8 @@ The September 2026 release focuses on documentation and platform housekeeping ra
   Complete documentation for deploying and managing Azure Virtual Desktop.  
 - [Deploying AVD on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-virtual-desktop?wt.mc_id=MVP_579217)  
   Step-by-step guide for running Azure Virtual Desktop in an Azure Local environment.  
+- [Microsoft Entra only join for AVD on Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-local-overview?wt.mc_id=MVP_579217#limitations)  
+  AVD session hosts on Azure Local support native Microsoft Entra join, removing the need for an AD DS domain. Deploy these session hosts through PowerShell or other automated methods, since the AVD portal only adds session hosts to an AD DS domain.  
 - [AVD on Azure Local pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-desktop/?wt.mc_id=MVP_579217)  
   To view pricing for Azure Virtual Desktop on Azure Local, open the "Pricing overview tab" (the rate is currently "*$0.01 per virtual core per hour*").  
 
