@@ -253,7 +253,7 @@ The September 2026 release focuses on documentation and platform housekeeping ra
 
 - [Everpure - Azure Local Landing Page](https://support.purestorage.com/bundle/m_microsoft_platform_guide/page/Solutions/Microsoft_Platform_Guide/topics/concept/c_azure_local.html)  
   Everpure FlashArray landing page for Azure Local with product information and references.
-- [Everpure and Azure Local Supportability (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/san-requirements?view=azloc-2605&tabs=Everpure-support)
+- [Everpure and Azure Local Supportability (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/san-requirements?view=azloc-2609&tabs=Everpure-support&wt.mc_id=MVP_579217)
   
 ---
 
