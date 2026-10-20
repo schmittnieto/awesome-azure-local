@@ -395,8 +395,6 @@ The September 2026 release focuses on documentation and platform housekeeping ra
   This repository brings together multiple scripts, each with its own purpose and structure, allowing you to spin up a fully functioning Azure Local environment quickly.  
 - [bfrankMS - AzureLocal_AzStackHCI (GitHub)](https://github.com/bfrankMS/AzureLocal_AzStackHCI)  
   Azure Local repository with findings on automating installations of HCI, AKS, and AVD.  
-- [Azure Local Sizing Guides (GitHub)](https://github.com/jonathan-vella/azure-local-sizing-guides)  
-  Azure Local Sizing Guides provides comprehensive documentation, best practices, and tools for deploying and managing Azure services, such as AKS, AVD, and Arc-enabled SQL Managed Instance, on Azure Local. This repository is maintained by [Jonathan Vella](https://www.linkedin.com/in/jonathanvella/), Senior Cloud Solution Architect at Microsoft.
 - [VMWare to Hyper-V VM Conversion tool in Windows Admin Center (Tool)](https://techcommunity.microsoft.com/blog/windowsservernewsandbestpractices/introducing-the-vm-conversion-tool-in-windows-admin-center-%E2%80%93-public-preview/4446604?wt.mc_id=MVP_579217)  
   This agentless, cost-free tool streamlines the conversion of virtual machines from VMware to Windows Server with Hyper-V.
 - [S2D Capacity Calculator (Tool)](https://s2d-calculator.com/)  
