@@ -201,8 +201,8 @@ The September 2026 release focuses on documentation and platform housekeeping ra
   Website backed by the Dell GitHub repository that lists supported versions and architectural guidance for Azure Local.  
 - [Dell - Azure Local InfoHub](https://infohub.delltechnologies.com/t/microsoft-hci-solutions-from-dell-technologies-1/)  
   Main page that aggregates the Dell Azure Local resources mentioned above.  
-- [Dell - SBE Page](https://www.dell.com/support/kbdoc/en-us/000224407/dell-for-microsoft-azure-stack-hci-ax-hardware-updates-release-notes)  
-  Page for managing firmware and driver updates on Dell hardware.  
+- [Dell - SBE Page](https://dell.github.io/azurestack-docs/docs/hci/supportmatrix/)  
+  Dell Support Matrix for Azure Local, with the SBE release notes and firmware and driver versions for each build.  
 - [Dell - External Storage with PowerFlex for Azure Local (White Paper)](https://www.delltechnologies.com/asset/en-us/products/converged-infrastructure/technical-support/reliable-performance-at-scale-white-paper.pdf)  
   White paper explaining the possibility and results of adding external storage to Azure Local as Cluster Storage using Dell PowerFlex (currently the only supported option).
 - [Dell - How to Expand a CSV in PowerShell and Windows Admin Center](https://www.dell.com/support/kbdoc/en-us/000195872/how-to-expand-a-csv-in-ps-and-wac)  
@@ -435,7 +435,7 @@ The September 2026 release focuses on documentation and platform housekeeping ra
 | ~~[AVD Tech Fest - Berlin (Germany)](https://www.controlup.com/de/avd-techfest-2025/)~~ | Community-driven event focused on Azure Virtual Desktop and Azure Local integration. | ~~99 €~~ | ~~No~~ | ~~September 10-11, 2025~~ |
 | ~~[Microsoft Ignite - San Francisco (USA)](https://register.ignite.microsoft.com/)~~ | Flagship Microsoft conference featuring hybrid cloud and Azure Local sessions. | 2325 $ | Yes (Digital pass are **Free**) | November 17-21, 2025 |
 | ~~[Microsoft Ignite 2025 - Breakout Session BRK147](https://ignite.microsoft.com/en-US/sessions/BRK147?source=sessions)~~ | Discover what's new in Azure Local, see a live demo, and hear from a customer modernizing operations and enabling AI in a regulated environment. | Included in Ignite pass | Yes | November 18, 2025 |
-| ~~[HybrIT - Würzburg (Germany)](https://www.manfredhelber.de/hybrit-conference-2025/)~~ | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299€ / 599 € | No | November 26-27, 2025 |
+| ~~HybrIT - Würzburg (Germany)~~ | Two-day conference in **German** on Microsoft hybrid infrastructure (Windows Server, Azure Local, and Azure Arc). | 299€ / 599 € | No | November 26-27, 2025 |
 | ~~[MC2MC - Antwerp (Belgium)](https://connect.mc2mc.be/agenda/)~~ | MC2MC Connect is a dynamic, full-day event for tech professionals, enthusiasts, and IT decision-makers, centered on three core Microsoft focus areas: Cloud / Hybrid, Endpoint & Security, Compliance and Identity | 137,81€ / 162,14 € | No | February 05, 2026 |
 | ~~[Experts Live Germany 2026 - Leipzig (Germany)](https://expertslive.de/)~~ | Community conference bringing together the German-speaking IT community around Microsoft Cloud & AI, On-Premises, Hybrid, Workplace and Security. Includes sessions, demos, discussions with MVPs and Microsoft experts, plus optional deep-dive workshops. | €249–€499 (net, depending on ticket type) | No | March 3–4, 2026 |
 | ~~[Windows Server Summit 2026](https://techcommunity.microsoft.com/event/windowsserver-events/windows-server-summit-2026/4501032?wt.mc_id=MVP_579217)~~ | Free virtual event covering Windows Server 2025 in practice, networking updates, server management roadmap and tooling, hybrid scenarios with Azure Arc, and an early look at Windows Server vNext. | Free | Yes | May 11–13, 2026 |
