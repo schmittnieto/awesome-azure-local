@@ -14,3 +14,12 @@ jakewalsh\.co\.uk/tag/azure-local
 nmehelp\.getnerdio\.com/hc/en-us/articles/
 www\.hpe\.com/psnow/doc/a50008245enw
 www\.hpe\.com/us/en/alliance/microsoft/azurelocal\.html
+community\.hpe\.com/t5/alliances/
+
+# Dell returns 403 to GitHub-hosted runners on both shop and support pages,
+# even though the same URLs load from other networks.
+www\.dell\.com/
+
+# Redirects to an HPE XML manifest whose TLS chain the link checker
+# intermittently rejects, while curl and browsers accept it.
+aka\.ms/AzureStackSBEUpdate/HPE
