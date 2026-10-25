@@ -8,7 +8,7 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Table of Contents
 
 - [Official](#official)
-  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2609)
+  - [What's new in Azure Local?](#whats-new-in-azure-local-version-2610)
   - [Azure Local](#azure-local)  
   - [AVD](#avd)  
   - [AKS](#aks)  
@@ -46,44 +46,72 @@ A curated list of links and resources for **Azure Local** and its related techno
 ## Official  
 *Only official links published or maintained by Microsoft or Azure.*
 
-### What's new in Azure Local (version 2609)
+### What's new in Azure Local (version 2610)
 
-[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2609&wt.mc_id=MVP_579217)
+[What's new in hyperconverged deployments of Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?view=azloc-2610&wt.mc_id=MVP_579217)
 
-**Version:** 12.2609.1003.7
-**Availability date:** September 11, 2026
-**OS build:** 26100.33438
+**Version:** 12.2610.1004.41
+**Availability date:** October 22, 2026
+**OS build:** 26100.33650
 
-The September 2026 release focuses on documentation and platform housekeeping rather than new capabilities. The Azure Local docs move to a scenario-based structure with a new Find your deployment type entry point, and PowerShell moves to version 7.6.5 built on .NET 10.
+The October 2026 release is a feature release with a strong focus on SAN and connectivity. Rack aware clusters now work with disaggregated SAN deployments, and existing instances can change their outbound connectivity after deployment, including Azure Arc gateway and private path. Confidential VMs with AMD SEV-SNP reach general availability.
+
+#### Before you update
+- If the `AzureEdgeAlerts` extension is installed, update it to version **12.2607.5.0** or later before updating Azure Local to 2610.
 
 #### Platform and OS
-- All new and existing Azure Local deployments run OS version **26100.33438**, available through the Azure portal.
-- Requires drivers compatible with OS **26100.33438** or Windows Server 2025.
+- All new and existing Azure Local deployments run OS version **26100.33650**, available through the Azure portal.
+- Requires drivers compatible with OS **26100.33650** or Windows Server 2025.
 - Integrated System and Premier solution hardware from the Azure Local Catalog includes the OS preinstalled.
 - Work with the OEM to obtain a matching OS image and driver package when needed.
+- Composed ISO releases now follow a semiannual cadence aligned with OEM validation cycles.
 
 #### Runtime updates
-- Platform updated to **.NET 8.0.31** for both .NET Runtime and ASP.NET Core.
-- Includes **.NET 10.0.12** for both .NET Runtime and ASP.NET Core.
-- PowerShell moves to version **7.6.5**, built on .NET 10.
+- Platform updated to **.NET 8.0.32** for both .NET Runtime and ASP.NET Core.
+- Includes **.NET 10.0.13** for both .NET Runtime and ASP.NET Core.
+- PowerShell moves to version **7.6.6**, built on .NET 10.
 
-#### Documentation updates
-- The Azure Local documentation moves to a scenario-based structure with improved navigation and a new [Find your deployment type](https://learn.microsoft.com/en-us/azure/azure-local/plan/find-your-deployment-type?wt.mc_id=MVP_579217) entry point.
-- New documentation covers planning and deploying a private path network, including [What is the private path network for Azure Local?](https://learn.microsoft.com/en-us/azure/azure-local/concepts/private-path-network-overview?wt.mc_id=MVP_579217) and [Register Azure Local with Azure Arc gateway and private path](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-with-azure-arc-gateway-private-path?wt.mc_id=MVP_579217).
+#### SAN and rack aware clusters
+- [Rack aware clusters with SAN (preview)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deploy-rack-aware-cluster-storage-area-network?view=azloc-2610&wt.mc_id=MVP_579217) protect workloads across two rooms with synchronized storage replication and independent compute and storage management.
+- The Azure portal deployment wizard can now configure a disk witness for SAN deployments.
+- The deployment wizard can also configure iSCSI for each node, which removes manual setup from SAN deployments.
+
+#### Connectivity after deployment
+- [Update proxy settings (preview)](https://learn.microsoft.com/en-us/azure/azure-local/manage/update-proxy-settings?view=azloc-2610&wt.mc_id=MVP_579217) changes how an existing instance routes outbound traffic.
+- [Enable Azure Arc gateway after deployment (preview)](https://learn.microsoft.com/en-us/azure/azure-local/manage/enable-arc-gateway-after-deployment?view=azloc-2610&wt.mc_id=MVP_579217) on an existing instance.
+- [Move from public path to private path connectivity (preview)](https://learn.microsoft.com/en-us/azure/azure-local/manage/move-public-path-to-private-path?view=azloc-2610&wt.mc_id=MVP_579217) without redeploying the instance.
+
+#### Security
+- Confidential VMs powered by AMD SEV-SNP on AMD Genoa platforms are now generally available.
+- The [security baseline](https://learn.microsoft.com/en-us/azure/azure-local/manage/manage-secure-baseline?view=azloc-2610&wt.mc_id=MVP_579217) grows from 408 to **429** evaluated settings, with more CIS and DISA STIG coverage.
+- Security baseline settings can now be customized while drift control keeps enforcing them. Guardrails keep the settings critical to system integrity protected.
+- The Application Control cmdlets are renamed to match App Control for Business. Existing scripts keep working.
+
+#### Update management
+- The operating system and OEM firmware and drivers can now be updated in a single Cluster-Aware Updating (CAU) run.
+- Starting in November 2026, OS cumulative updates and .NET updates ship in the same week as Patch Tuesday as security updates, without waiting for a cumulative or feature release.
+
+#### Management and operations
+- The Azure portal now creates a Provisioned Machine resource for each Azure Arc-enabled server in the cluster, using the same name. These resources are managed automatically and shouldn't be deleted.
+- [Built-in infrastructure RBAC roles (preview)](https://learn.microsoft.com/en-us/azure/azure-local/manage/assign-infrastructure-rbac-roles?view=azloc-2610&wt.mc_id=MVP_579217) separate infrastructure administration from workload administration. They currently apply only to GPU infrastructure.
+- The new `SANDiagnostics` log collection role gathers MPIO, Fibre Channel, iSCSI and Cluster Shared Volume diagnostics.
+- The new [`Get-SolutionHealthSummary`](https://learn.microsoft.com/en-us/azure/azure-local/manage/use-get-solution-health-summary-powershell-command?view=azloc-2610&wt.mc_id=MVP_579217) cmdlet returns a short summary of the latest solution health check, highlighting critical and important issues.
+- The US Gov Arizona region is now available in preview, with support up to Impact Level 5 (IL5).
 
 #### Azure Migrate
+- Migrations from VMware and Hyper-V can now reuse the existing Azure Arc-enabled server resource, so tags, RBAC assignments, Azure Policy, monitoring settings and VM extensions carry over to the Azure Local VM.
 - Azure Migrate updates release on a separate cadence and don't require an Azure Local version upgrade.
 
-#### Reliability
-- Includes reliability improvements and general bug fixes across platform operations.
-
 #### Known issues
-- Microsoft lists **no known issues specific to version 2609** in the current release notes.
+- Microsoft lists **no known issues specific to version 2610** in the current release notes.
 
 #### Fixed issues
-- Fixed an issue where `az stack-hci-vm stop` failed on clusters earlier than version 2604 with a "Cannot do StopGraceful power operation on a Running VM" error.
-- Fixed an issue where some clusters were billed for Azure Machine Configuration, a capability that should be free for Azure Local customers.
-- See the [Azure Local 2609 known issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2609&wt.mc_id=MVP_579217#known-issues-for-version-2609) release notes for the official list.
+- Fixed Storage Spaces Direct cache configuration on all-flash and hybrid clusters, where deployment and node repair applied unsupported cache settings and left cache disks unclaimed.
+- Fixed Network Controller dependencies failing to load during solution updates, which broke SDN workload connectivity and network security policy enforcement.
+- Fixed supported replacement drives and drives on newly added nodes being quarantined incorrectly.
+- Fixed multiple solution updates starting or resuming at the same time and conflicting with each other.
+- Fixed stale Arc Resource Bridge health alerts blocking updates on healthy clusters.
+- See the [Azure Local 2610 fixed issues](https://learn.microsoft.com/en-us/azure/azure-local/known-issues?view=azloc-2610&wt.mc_id=MVP_579217#fixed-issues-for-version-2610) release notes for the full list of 27 fixes.
 
 ### Azure Local
 
@@ -91,13 +119,13 @@ The September 2026 release focuses on documentation and platform housekeeping ra
   Official product page for Azure Local on the Azure website.  
 - [What is Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview?wt.mc_id=MVP_579217)  
   Introduction to Azure Local (formerly Azure Stack HCI) and its core components.  
-- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2609&wt.mc_id=MVP_579217)  
+- [Disaggregated deployments of Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/overview/disaggregated-overview?view=azloc-2610&wt.mc_id=MVP_579217)  
   Overview of Azure Local deployments that use SAN storage connected to Azure, with support for single-machine and clustered environments.  
 - [What is new in Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/whats-new?wt.mc_id=MVP_579217)  
   Lists the latest features and improvements available in Azure Local.  
 - [Azure Local Deployment (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/deployment-introduction?wt.mc_id=MVP_579217)  
   First article in a series that describes how to deploy Azure Local.  
-- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2609&wt.mc_id=MVP_579217)
+- [External SAN Storage for Azure Local (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/deploy/enable-external-storage?view=azloc-2610&wt.mc_id=MVP_579217)
   GA support for external Fibre Channel SAN storage in Azure Local 2604 and later, including MPIO, cluster validation, CSV integration, and Storage Path configuration.
 - [Azure Local Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-local/?wt.mc_id=MVP_579217)  
   Overview of licensing options, cost model, and subscription details.  
@@ -254,7 +282,7 @@ The September 2026 release focuses on documentation and platform housekeeping ra
 
 - [Everpure - Azure Local Landing Page](https://support.purestorage.com/bundle/m_microsoft_platform_guide/page/Solutions/Microsoft_Platform_Guide/topics/concept/c_azure_local.html)  
   Everpure FlashArray landing page for Azure Local with product information and references.
-- [Everpure and Azure Local Supportability (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/san-requirements?view=azloc-2609&tabs=Everpure-support&wt.mc_id=MVP_579217)
+- [Everpure and Azure Local Supportability (Microsoft Docs)](https://learn.microsoft.com/en-us/azure/azure-local/concepts/san-requirements?view=azloc-2610&tabs=Everpure-support&wt.mc_id=MVP_579217)
   
 ---
 
